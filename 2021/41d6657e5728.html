@@ -1,0 +1,181 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>设计模式 | ThinkBIM</title><meta name="author" content="ThinkBIM,thinkbim@thinkbim.cn"><meta name="copyright" content="ThinkBIM"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="深入了解PHP设计模式">
+<meta property="og:type" content="article">
+<meta property="og:title" content="设计模式">
+<meta property="og:url" content="https://hub.thinkbim.cn/2021/41d6657e5728.html">
+<meta property="og:site_name" content="ThinkBIM">
+<meta property="og:description" content="深入了解PHP设计模式">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-07-19T00:00:00.000Z">
+<meta property="article:modified_time" content="2022-11-02T10:13:11.220Z">
+<meta property="article:author" content="ThinkBIM">
+<meta property="article:tag" content="OOP">
+<meta name="twitter:card" content="summary"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/favicon.ico"><link rel="canonical" href="https://hub.thinkbim.cn/2021/41d6657e5728"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><meta name="google-site-verification" content="5euu_us-aIOzgqq40bdi1HqSJkTxMzFQ_DMAZvXWyro"/><meta name="baidu-site-verification" content="code-UnKUQ5Ln8G"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9a6499eacecd7b2a408fc0aabdf3eab3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '设计模式',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-11-02 10:13:11'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/c/font_3745301_drpcp7ypo8h.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/logo.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/AnimeComic/"><i class="fa-fw iconfont icon-dongman1"></i><span> 动漫</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">ThinkBIM</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/AnimeComic/"><i class="fa-fw iconfont icon-dongman1"></i><span> 动漫</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">设计模式</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-07-19T00:00:00.000Z" title="发表于 2021-07-19 00:00:00">2021-07-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-11-02T10:13:11.220Z" title="更新于 2022-11-02 10:13:11">2022-11-02</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/PHP/">PHP</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="面向对象程序设计简介"><a href="#面向对象程序设计简介" class="headerlink" title="面向对象程序设计简介"></a>面向对象程序设计简介</h2><h3 id="面向对象程序设计基础"><a href="#面向对象程序设计基础" class="headerlink" title="面向对象程序设计基础"></a>面向对象程序设计基础</h3><p>面向对象程序设计（Object-Oriented Programming， 缩写为<strong>OOP</strong>）是一种范式，其基本理念是将数据块及与数据相关的行为封装成为特殊的、名为对象的实体，同时对象实体的生成工作则是基于程序员给出的一系列“蓝图”，这些“蓝图”就是类</p>
+<h4 id="对象和类"><a href="#对象和类" class="headerlink" title="对象和类"></a>对象和类</h4><p>假如你有一只名为卡卡的猫。卡卡是一个对象，也是 猫 <strong>Cat</strong> 这个类的一个实例。每只猫都有许多基本属性： 名字<strong>name</strong> 、 性别 <strong>sex</strong> 、 年龄 <strong>age</strong> 、 体重 <strong>weight</strong> 、毛色 <strong>color</strong> 和最爱的食物等。这些都是该类的成员变量。</p>
+<p>所有猫都有相似的行为： 它们会呼吸 <strong>breathe</strong> 、 进食<strong>eat</strong> 、 奔跑 <strong>run</strong> 、 睡觉 <strong>sleep</strong> 和 喵喵叫 <strong>meow</strong> 。这些都是该类的方法。 成员变量和方法可以统称为类的成员。存储在对象成员变量中的数据通常被称为状态，对象中的所有方法则定义了其行为。 </p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Cat</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$gender</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$age</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$weight</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$color</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//呼吸</span></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">breathe</span>(<span class="params"></span>)</span>&#123;&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//进食</span></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">eat</span>(<span class="params"><span class="variable">$food</span></span>)</span>&#123;&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//奔跑</span></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">run</span>(<span class="params"><span class="variable">$destination</span></span>)</span>&#123;&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//睡觉</span></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">sleep</span>(<span class="params"><span class="variable">$hours</span></span>)</span>&#123;&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//喵喵叫</span></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">menw</span>(<span class="params"></span>)</span>&#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="类层次结构"><a href="#类层次结构" class="headerlink" title="类层次结构"></a>类层次结构</h4><p>相信大家都已经了解单独的一个类的结构了，但一个实际的程序显然会包含不止一个类。一些类可能会组织起来形成类层次结构。</p>
+<h3 id="面向对象程序设计基础-1"><a href="#面向对象程序设计基础-1" class="headerlink" title="面向对象程序设计基础"></a>面向对象程序设计基础</h3><p>面向对象程序设计的四个基本概念使其区别于其他程序设计范式</p>
+<h4 id="抽象"><a href="#抽象" class="headerlink" title="抽象"></a>抽象</h4><p>当使用面向对象程序设计的理念开发一款程序时，你会将大部分时间用于根据真实世界对象来设计程序中的对象。但是，程序中的对象并不需要能够百分之百准确地反映其原型（极少情况下才需要做到这一点）。实际上，你的对象只需模拟真实对象的特定属性和行为即可，其他内容可以忽略。</p>
+<p><strong>抽象</strong>是一种反映真实世界对象或现象中特定内容的模型，它能高精度地反映所有与特定内容相关的详细信息，同时忽略其他内容。</p>
+<h4 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h4><p><strong>封装</strong>是指一个对象对其他对象隐藏其部分状态和行为，而仅向程序其他部分暴露有限的接口的能力。</p>
+<p><strong>封装</strong>某个内容意味着使用关键字 <strong>private</strong> 私有 来对其进行修饰，这样仅有其所在类中的方法才能访问这些内容。还有一种限制程度较小的关键字 <strong>protected</strong> 保护 ，其所修饰的对象仅允许父类访问其类中的成员。</p>
+<p>绝大部分编程语言的接口和抽象类（或方法）都基于抽象和封装的概念。在现代面向对象的编程语言中，接口机制（通常使用 <strong>interface</strong> 或 <strong>protocol</strong> 关键字来声明）允许你定义对象之间的交互协议。这也是接口仅关心对象行为，以及你不能在接口中声明成员变量的原因之一。</p>
+<h4 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h4><p>多态是指程序能够检测对象所属的实际类，并在当前上下文不知道其真实类型的情况下调用其实现的能力。</p>
+<p>你还可将多态看作是一个对象“假扮”为其他东西（通常是其扩展的类或实现的接口）的能力。在我们的示例中，袋中的狗和猫就相当于是假扮成了一般的动物。 </p>
+<h4 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h4><p>继承是指在根据已有类创建新类的能力。继承最主要的好处是代码复用。如果你想要创建的类与已有的类差异不大，那也没必要重复编写相同的代码。你只需扩展已有的类并将额外功能放入生成的子类（它会继承父类的成员变量和方法）中即可。</p>
+<p>使用继承后，子类将拥有与其父类相同的接口。如果父类中声明了某个方法，那么你将无法在子类中隐藏该方法。你还必须实现所有的抽象方法，即使它们对于你的子类而言没有意义。</p>
+<p>在绝大多数编程语言中，子类仅能对一个父类进行扩展。另一方面，任何类都可以同时实现多个接口。但是正如我之前提到的那样，如果父类实现了某个接口，那么其所有子类都必须实现该接口。</p>
+<h3 id="对象之间的关系"><a href="#对象之间的关系" class="headerlink" title="对象之间的关系"></a>对象之间的关系</h3><h4 id="依赖"><a href="#依赖" class="headerlink" title="依赖"></a>依赖</h4><p><strong>依赖</strong>是类之间最基础的、也是最微弱的关系类型。如果修改一个类的定义可能会造成另一个类的变化，那么这两个类之间就存在依赖关系。当你在代码中使用具体类的名称时，通常意味着存在依赖关系。例如在指定方法签名类型时，或是通过调用构造函数对对象进行初始化时等。通过让代码依赖接口或抽象类（而不是具体类），你可以降低其依赖程度。通常情况下，UML 图不会展示所有依赖——它们在真实代码中的数量太多了。为了不让依赖关系破坏 UML 图，你必须对其进行精心选择，仅展示那些对于沟通你的想法来说重要的依赖关系。</p>
+<h4 id="关联"><a href="#关联" class="headerlink" title="关联"></a>关联</h4><p><strong>关联</strong>是一个对象使用另一对象或与另一对象进行交互的关系。 在 UML 图中，关联关系用起始于一个对象并指向其所使用的对象的简单箭头来表示。顺带一提，双向关联也是完全正常的，这种情况就用双向箭头来表示。关联可视为一种特殊类型的依赖，即一个对象总是拥有访问与其交互的对象的权限，而简单的依赖关系并不会在对象间建立永久性的联系。一般来说，你可以使用关联关系来表示类似于类成员变量的东西。这个关系将一直存在，因此你总能通过“订单”来获取其“顾客”。但是它并非一定是成员变量。如果你根据接口来创建类，它也可以表示为一个可返回“订单”的“顾客”的方法。</p>
+<img src="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/oop/image-031.png" style="zoom:50%;"  alt=""/>
+
+<p>• 依赖：对类 B 进行修改会影响到类 A 。 </p>
+<p>• 关联：对象 A 知道对象 B。类 A 依赖于类 B。</p>
+<p>• 聚合：对象 A 知道对象 B 且由 B 构成。类 A 依赖于类 B。 </p>
+<p>• 组合：对象 A 知道对象 B、由 B 构成而且管理着 B 的生命周期。类 A 依赖于类 B。 </p>
+<p>• 实现：类 A 定义的方法由接口 B 声明。对象 A 可被视为对象B。类 A 依赖于类 B。 </p>
+<p>• 继承： 类 A 继承类 B 的接口和实现， 但是可以对其进行扩展。对象 A 可被视为对象 B。类 A 依赖于类 B。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://hub.thinkbim.cn">ThinkBIM</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://hub.thinkbim.cn/2021/41d6657e5728.html">https://hub.thinkbim.cn/2021/41d6657e5728.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://hub.thinkbim.cn" target="_blank">ThinkBIM</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/OOP/">OOP</a></div><div class="post_share"></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/appreciate/wechat.jpeg" target="_blank"><img class="post-qr-code-img" src="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/appreciate/wechat.jpeg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li></ul></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/logo.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ThinkBIM</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/thinkbim" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:thinkbim@thinkbim.cn" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">面向对象程序设计简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80"><span class="toc-number">1.1.</span> <span class="toc-text">面向对象程序设计基础</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1%E5%92%8C%E7%B1%BB"><span class="toc-number">1.1.1.</span> <span class="toc-text">对象和类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%B1%BB%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84"><span class="toc-number">1.1.2.</span> <span class="toc-text">类层次结构</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80-1"><span class="toc-number">1.2.</span> <span class="toc-text">面向对象程序设计基础</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8A%BD%E8%B1%A1"><span class="toc-number">1.2.1.</span> <span class="toc-text">抽象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%81%E8%A3%85"><span class="toc-number">1.2.2.</span> <span class="toc-text">封装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%9A%E6%80%81"><span class="toc-number">1.2.3.</span> <span class="toc-text">多态</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF"><span class="toc-number">1.2.4.</span> <span class="toc-text">继承</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">1.3.</span> <span class="toc-text">对象之间的关系</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BE%9D%E8%B5%96"><span class="toc-number">1.3.1.</span> <span class="toc-text">依赖</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B3%E8%81%94"><span class="toc-number">1.3.2.</span> <span class="toc-text">关联</span></a></li></ol></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022 By ThinkBIM</div><div class="footer_custom_text">Hi, welcome to my <a href="https://hub.thinkbim.cn/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div></div></body></html>
