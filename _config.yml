@@ -103,6 +103,4 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/ThinkBIM/hub.thinkbim.cn.git
-  branch: main
+  type: ''
