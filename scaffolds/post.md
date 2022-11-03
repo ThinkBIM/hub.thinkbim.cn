@@ -1,5 +1,10 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+description: 
+keywords: 
+tags: 
+categories:
+top_img:
+cover:
 ---

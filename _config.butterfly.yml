@@ -3,7 +3,7 @@
 # --------------------------------------
 
 menu:
-  动漫: /AnimeComic/ || iconfont icon-dongman1
+  动漫: /AnimeComic/ || iconfont icon-dongman
 # Archives: /archives/ || fas fa-archive
 # Tags: /tags/ || fas fa-tags
 # Categories: /categories/ || fas fa-folder-open
@@ -37,6 +37,7 @@ copy:
 social:
  fab fa-github: https://github.com/thinkbim || Github
  fas fa-envelope: mailto:thinkbim@thinkbim.cn || Email
+ iconfont icon-V : https://github.com/ThinkBIM/hub.thinkbim.cn/issues
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -132,7 +133,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/404.jpg
 
@@ -876,7 +877,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3745301_drpcp7ypo8h.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_abdma8xbd2.css">
   bottom:
   # - <script src="xxxx"></script>
 
