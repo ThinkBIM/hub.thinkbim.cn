@@ -6,7 +6,7 @@ branches:
   only:
     - main # build master branch only
 script:
-  - hexo clean
+  - hexo clean && hexo g
   - hexo generate # generate static files
 deploy:
   provider: pages
