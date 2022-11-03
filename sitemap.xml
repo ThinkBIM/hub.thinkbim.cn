@@ -101,6 +101,15 @@
   </url>
   
   <url>
+    <loc>https://hub.thinkbim.cn/pan-search.html</loc>
+    
+    <lastmod>2022-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hub.thinkbim.cn/process.html</loc>
     
     <lastmod>2022-11-03</lastmod>
@@ -197,6 +206,13 @@
   </url>
   
   <url>
+    <loc>https://hub.thinkbim.cn/tags/Link/</loc>
+    <lastmod>2022-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hub.thinkbim.cn/tags/Process/</loc>
     <lastmod>2022-11-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -242,6 +258,13 @@
   
   <url>
     <loc>https://hub.thinkbim.cn/categories/MySQL/</loc>
+    <lastmod>2022-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hub.thinkbim.cn/categories/%E7%BD%91%E7%9B%98/</loc>
     <lastmod>2022-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
