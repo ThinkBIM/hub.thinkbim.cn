@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>intelliJ常用汇总</title>
+      <link href="/intelliJ.html"/>
+      <url>/intelliJ.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h2><p>最新可用JetBrains激活服务器地址 </p><ul><li><code>JetBrains激活服务器地址</code>：<a href="http://jetbrains-lic.novx.org/">http://jetbrains-lic.novx.org</a> </li><li><code>激活码发布页</code>：<a href="https://novx.org/jetbrains">https://novx.org/jetbrains</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PHP面向对象面试题</title>
       <link href="/interview_oop.html"/>
       <url>/interview_oop.html</url>

@@ -74,6 +74,15 @@
   </url>
   
   <url>
+    <loc>https://hub.thinkbim.cn/intelliJ.html</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hub.thinkbim.cn/interview_oop.html</loc>
     
     <lastmod>2023-01-09</lastmod>
@@ -165,6 +174,33 @@
   
   <url>
     <loc>https://hub.thinkbim.cn/categories/index.html</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hub.thinkbim.cn/diary/20230109.html</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hub.thinkbim.cn/golang/index.html</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hub.thinkbim.cn/php/php8.html</loc>
     
     <lastmod>2023-01-09</lastmod>
     
