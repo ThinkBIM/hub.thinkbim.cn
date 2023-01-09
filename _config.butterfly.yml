@@ -3,7 +3,7 @@
 # --------------------------------------
 
 menu:
-  动漫: /AnimeComic/ || iconfont icon-dongman
+  动漫: /comic/ || iconfont icon-dongman
 # Archives: /archives/ || fas fa-archive
 # Tags: /tags/ || fas fa-tags
 # Categories: /categories/ || fas fa-folder-open
