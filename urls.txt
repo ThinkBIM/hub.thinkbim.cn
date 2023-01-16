@@ -21,3 +21,4 @@ https://hub.thinkbim.cn/categories/
 https://hub.thinkbim.cn/interview_socket.html
 https://hub.thinkbim.cn/interview_oop.html
 https://hub.thinkbim.cn/php/php8.html
+https://hub.thinkbim.cn/telegram.html

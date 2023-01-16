@@ -37,7 +37,8 @@ copy:
 social:
  fab fa-github: https://github.com/thinkbim || Github
  fas fa-envelope: mailto:thinkbim@thinkbim.cn || Email
- fas fa-rss : https://github.com/ThinkBIM/hub.thinkbim.cn/issues
+ fas fa-rss: https://github.com/ThinkBIM/hub.thinkbim.cn/issues
+ fas fa-brands fa-telegram: https://t.me/thinkbim || Telegram
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -430,7 +431,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: Become a rich man
+  custom_text: BECOME RICH
   copyright: false # Copyright of theme and framework
 
 # Analysis
