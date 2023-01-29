@@ -18,7 +18,13 @@ https://hub.thinkbim.cn/categories/index.html
 https://hub.thinkbim.cn/AnimeComic/index.html
 https://hub.thinkbim.cn/tags/
 https://hub.thinkbim.cn/categories/
+https://hub.thinkbim.cn/interview.html
+https://hub.thinkbim.cn/interview_cache.html
 https://hub.thinkbim.cn/interview_socket.html
 https://hub.thinkbim.cn/interview_oop.html
 https://hub.thinkbim.cn/php/php8.html
 https://hub.thinkbim.cn/telegram.html
+https://hub.thinkbim.cn/messi.html
+https://hub.thinkbim.cn/php_newfeature.html
+https://hub.thinkbim.cn/mysql_cluster.html
+https://hub.thinkbim.cn/redis_cluster.html
