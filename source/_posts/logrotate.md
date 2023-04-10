@@ -4,7 +4,8 @@ date: 2021-05-20
 description: Logrotate在CentOS上使用100%CPU问题
 keywords: Logrotate|CentOS上使用100%CPU问题|日志切分
 tags:
-  - Logrotate 
+  - Logrotate
+  - Liunx
 categories:
   - Liunx
 ---

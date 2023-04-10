@@ -1,17 +1,29 @@
 ---
-title: 如何保证数据库和缓存的一致性
+title: 面试技巧
 date: 2022-11-07
 description: 
 keywords: 缓存
 tags:
   - Cache
+  - 面试题
 categories:
   - 面试题
 top_img:
 cover:
 ---
 
-1 php7的特点
+## 简历篇
+
+### 投放平台
+投放时间上午8:30-10:00；下午13:30-15:00；不要投递同一个公司，不要投递一个职位
+
+智联招聘 https://www.zhaopin.com/
+BOSS直聘 https://www.zhipin.com/
+拉钩 https://www.lagou.com/
+前程无忧 https://www.51job.com/
+
+## 自我介绍
+
 2 docker composer
 3 事务超卖现象  加悲观锁和乐观锁
 4 redo log

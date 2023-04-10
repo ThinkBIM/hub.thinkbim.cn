@@ -5,6 +5,7 @@ description:
 keywords: PHP面试题|面向对象|单例
 tags:
   - OOP
+  - 面试题
 categories:
   - 面试题
 top_img:

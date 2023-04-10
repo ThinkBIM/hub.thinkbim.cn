@@ -10,4 +10,6 @@ top_img:
 cover:
 ---
 
+关于Telegram 群组推荐汇总分享，涉及不同分类的群组，持续更新...
+
 [Telegram 群组推荐汇总](https://congcong0806.github.io/2018/04/24/Telegram/)

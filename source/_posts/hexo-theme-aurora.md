@@ -5,6 +5,8 @@ description: 基于hexo-theme-aurora 主题
 keywords: Hexo|Themes|aurora|主题
 tags:
   - Themes
+  - Hexo
+  - Aurora
 categories:
   - Hexo
 ---

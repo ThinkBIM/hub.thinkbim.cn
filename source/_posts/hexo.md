@@ -4,7 +4,8 @@ date: 2022-11-04
 description: 
 keywords: 
 tags:
-  - 
+  - Hexo
+  - Themes
 categories:
   - Hexo
 top_img:

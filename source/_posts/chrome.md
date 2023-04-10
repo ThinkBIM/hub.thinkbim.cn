@@ -1,10 +1,12 @@
 ---
 title: Google Chrome开启自带的截图
 date: 2022-11-04
-description: 
+description: Chrome浏览器如何截图
 keywords:
 tags:
+  - Google
 categories:
+  - Google
 top_img:
 cover:
 ---

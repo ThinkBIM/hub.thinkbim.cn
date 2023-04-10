@@ -1,5 +1,5 @@
 ---
-title: LEFT JOIN  查询结果不是左表的全部数据的解决方法
+title: LEFT JOIN 查询结果不是左表的全部数据的解决方法
 date: 2021-07-22
 description: 查询结果不是左表的全部数据的解决方法
 keywords: LEFT JOIN查询

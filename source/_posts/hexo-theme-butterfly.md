@@ -5,6 +5,8 @@ description: 基于hexo-theme-butterfly主题，部署自己个博客系统
 keywords: Hexo|Themes|butterfly|主题
 tags:
   - Themes
+  - Butterfly
+  - Hexo
 categories:
   - Hexo
 ---

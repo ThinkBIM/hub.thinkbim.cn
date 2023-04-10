@@ -4,7 +4,8 @@ date: 2021-06-21
 description: Docker常用命令
 keywords: Docker|命令|image|镜像
 tags:
-  - command 
+  - Command
+  - Image
 categories:
   - Docker
 ---

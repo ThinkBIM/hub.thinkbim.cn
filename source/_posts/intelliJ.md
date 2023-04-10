@@ -4,7 +4,9 @@ date: 2022-11-30 13:41:05
 description:
 keywords:
 tags: 
+  - IDE
 categories:
+  - Jetbrains
 top_img:
 cover:
 ---

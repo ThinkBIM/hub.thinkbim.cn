@@ -5,6 +5,7 @@ description: 使用PHP-FFMpeg操作视频/音频文件
 keywords: PHP|ffmpeg
 tags:
   - ffmpeg 
+  - PHP
 categories:
   - PHP
 ---

@@ -1,11 +1,12 @@
 ---
 title: 利昂内尔·梅西（Lionel Messi）
 date: 2023-01-18 15:43:49
-description:
-keywords:
+description: 利昂内尔·梅西
+keywords: 梅西
 tags:
+  - 梅西
 categories:
-top_img:
+top_img: https://s2.loli.net/2023/01/18/Z9o2fHTPMtEYOw7.jpg
 cover:
 ---
 
@@ -42,7 +43,6 @@ cover:
 29. 梅西职业生涯最喜欢的对手当属塞维利亚队。在面对这支安达卢西亚俱乐部的时候，梅西一共打进了29个进球；在欧冠中被梅西破门次数最多的则是阿森纳队，他们的城池9次被梅西攻破。
 
 {% gallery %}
-![](https://s2.loli.net/2023/01/18/Z9o2fHTPMtEYOw7.jpg)
 ![](https://s2.loli.net/2023/01/18/PspiXL9ZJWoHURV.jpg)
 ![](https://s2.loli.net/2023/01/18/lqNAXLK7ObPnaBY.jpg)
 {% endgallery %}

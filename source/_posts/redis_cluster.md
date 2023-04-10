@@ -1,10 +1,13 @@
 ---
 title: Redis 的三种集群方案
 date: 2023-01-29 21:14:25
-description:
-keywords:
+description: redis不同的集群模式，工作机制，优缺点分析
+keywords: redis集群
 tags:
-  - 
+  - Redis
+  - Docker
+  - Sentinel
+  - Cluster
 categories:
   - Redis
 top_img:
@@ -44,7 +47,7 @@ Redis支持三种集群方案
 2. 当master出现故障时，能自动将一个slave转换为master（大哥挂了，选一个小弟上位）
 3. 多个哨兵可以监控同一个Redis，哨兵之间也会自动监控
 
-具体工作机制：
+## 具体工作机制：
 在配置文件中通过 sentinel monitor 来定位master的IP、端口，一个哨兵可以监控多个master数据库，只需要提供多个该配置项即可。哨兵启动后，会与要监控的master建立两条连接：
 
 一条连接用来订阅master的_sentinel_:hello频道与获取其他监控该master的哨兵节点信息
