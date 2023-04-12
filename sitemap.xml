@@ -502,6 +502,13 @@
   </url>
   
   <url>
+    <loc>https://hub.thinkbim.cn/tags/IDE/</loc>
+    <lastmod>2023-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hub.thinkbim.cn/tags/Cache/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -510,13 +517,6 @@
   
   <url>
     <loc>https://hub.thinkbim.cn/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
-    <lastmod>2023-04-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hub.thinkbim.cn/tags/IDE/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -544,14 +544,14 @@
   </url>
   
   <url>
-    <loc>https://hub.thinkbim.cn/tags/F-Q/</loc>
+    <loc>https://hub.thinkbim.cn/tags/Liunx/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hub.thinkbim.cn/tags/Liunx/</loc>
+    <loc>https://hub.thinkbim.cn/tags/F-Q/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -572,6 +572,13 @@
   </url>
   
   <url>
+    <loc>https://hub.thinkbim.cn/tags/explain/</loc>
+    <lastmod>2023-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hub.thinkbim.cn/tags/%E4%B8%BB%E4%BB%8E/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -580,13 +587,6 @@
   
   <url>
     <loc>https://hub.thinkbim.cn/tags/Docker/</loc>
-    <lastmod>2023-04-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hub.thinkbim.cn/tags/explain/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -728,14 +728,14 @@
   </url>
   
   <url>
-    <loc>https://hub.thinkbim.cn/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
+    <loc>https://hub.thinkbim.cn/categories/Jetbrains/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hub.thinkbim.cn/categories/Jetbrains/</loc>
+    <loc>https://hub.thinkbim.cn/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
