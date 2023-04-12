@@ -1,0 +1,410 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>ThinkBIM</title><meta name="author" content="ThinkBIM,thinkbim@thinkbim.cn"><meta name="copyright" content="ThinkBIM"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="任何人，想要更好的生活，都必须要努力，幸福都是奋斗出来的，冰冻三尺非一日之寒，你所看到他人的光鲜靓丽，也不是一蹴而就的，日复一日的坚持，年复一年的奋斗，多努力，多学习，多成长，才能收获自己想要的！BECOME RICH">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ThinkBIM">
+<meta property="og:url" content="https://hub.thinkbim.cn/page/3/index.html">
+<meta property="og:site_name" content="ThinkBIM">
+<meta property="og:description" content="任何人，想要更好的生活，都必须要努力，幸福都是奋斗出来的，冰冻三尺非一日之寒，你所看到他人的光鲜靓丽，也不是一蹴而就的，日复一日的坚持，年复一年的奋斗，多努力，多学习，多成长，才能收获自己想要的！BECOME RICH">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2022/11/07/JutlITnLafkAc58.png">
+<meta property="article:author" content="ThinkBIM">
+<meta property="article:tag" content="thinkbim|开发分享|PHP|常用命令">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2022/11/07/JutlITnLafkAc58.png"><link rel="shortcut icon" href="https://s2.loli.net/2022/11/07/JutlITnLafkAc58.png"><link rel="canonical" href="https://hub.thinkbim.cn/page/3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><meta name="google-site-verification" content="02X0oFSaS7yuSpfrGZAaOj2ONXnratn8YUdF5jFk-k4"/><meta name="baidu-site-verification" content="code-UnKUQ5Ln8G"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-7874261483016741',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9a6499eacecd7b2a408fc0aabdf3eab3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-15Y6F3H9JX"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-15Y6F3H9JX');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: ThinkBIM","link":"链接: ","source":"来源: ThinkBIM","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'ThinkBIM',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-04-12 14:56:39'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_abdma8xbd2.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s2.loli.net/2022/11/07/JutlITnLafkAc58.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">37</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">37</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/comic/"><i class="fa-fw iconfont icon-dongman"></i><span> 动漫</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://s2.loli.net/2022/11/07/Pu7xctqDfJjRIay.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">ThinkBIM</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/comic/"><i class="fa-fw iconfont icon-dongman"></i><span> 动漫</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">ThinkBIM</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/thinkbim" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:thinkbim@thinkbim.cn" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://github.com/ThinkBIM/hub.thinkbim.cn/issues" target="_blank" title=""><i class="fas fa-rss"></i></a><a class="social-icon" href="https://t.me/thinkbim" target="_blank" title="Telegram"><i class="fas fa-brands fa-telegram"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/interview_socket.html" title="Socket常用面试题">Socket常用面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-06T16:00:00.000Z" title="发表于 2022-11-07 00:00:00">2022-11-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/">面试题</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">面试题</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Socket/">Socket</a></span></div><div class="content">socket通常称为”套接字”，用于描述IP地址和端口，是一种通信链的句柄。应用程序通过套接字向网络发出请求和应答的网络请求
+套接字之间的连接过程
+服务器监听：是服务器端套接字并不定位具体的客户端套接字，而是处于等待连接的状态，实时监控网络状态。
+客户端请求：是指由客户端的套接字提出连接请求，要连接的目标是服务器端的套接字。为此，客户端的套接字必须首先描述它要连接的服务器的套接字，指出服务器端套接字的地址和端口号，然后就向服务器端套接字提出连接请求。
+连接确认：是指当服务器端套接字监听到或者说接收到客户端套接字的连接请求，它就响应客户端套接字的请求，建立一个新的线程，把服务器端套接字的描述发给客户端，一旦客户端确认了此描述，连接就建立好了。而服务器端套接字继续处于监听状态，继续接收其他客户端套接字的连接请求。
+
+三次握手
+第一次握手：客户端尝试连接服务器，向服务器发送syn包（同步序列编号Synchronize Sequence Numbers），syn&#x3D;j，客户端进入SYN_SEND状态等待服务器确认。
+第二次握手：服务器接收客户端syn包并确认（ack&#x3D;j+1） ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/chrome.html" title="Google Chrome开启自带的截图">Google Chrome开启自带的截图</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-03T16:00:00.000Z" title="发表于 2022-11-04 00:00:00">2022-11-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Google/">Google</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Google/">Google</a></span></div><div class="content">最近 Google Chrome 更新一项新功能，用户可以从地址栏右侧分享选项找到屏幕截图的功能，不过目前没有默认开启，如果需要体验的话可以手动开启。
+开启步骤
+首先将 Google Chrome 更新到最新版本，在网址列输入 chrome:&#x2F;&#x2F;flags 开启实验室选项。
+从上方搜索框输入 Desktop Screenshots 会看到底下有一个「Desktop Screenshots」选项，选项设定为「Enabled」，然后点选右下角「Relaunch」
+重新启动浏览器后，在地址栏右侧点击小图标，即可使用截图功能
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hexo.html" title="Butterfly主题相关文章标签使用实例">Butterfly主题相关文章标签使用实例</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-03T16:00:00.000Z" title="发表于 2022-11-04 00:00:00">2022-11-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Hexo/">Hexo</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Themes/">Themes</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Hexo/">Hexo</a></span></div><div class="content">Mermaid便签可以绘制Flowchart（流程图）、Sequence diagram（时序图 ）、Class Diagram（类别图）、State Diagram（状态图）、Gantt（甘特图）和Pie Chart（圆形图）Gallery 相册、图库，Tag。 flink可以在任何界面插入类似友情链接列表
+Gallery相册图库
+SMMS 图床上传工具是smms的一种,SMMS图床上传工具绿色版是一款相当出色的SMMS图床专用批量上传工具。SMMS国内地址
+
+图库123&lt;div class=&quot;gallery-group-main&quot;&gt;&#123;% galleryGroup name description link img-url %&#125;&lt;/div&gt;
+
+name：图库名字
+description：图库名字描述
+link：连接到相册地址
+img-url：图库封面的地址
+
+
+Demo
+
+
+
+  
+  
+  
+  壁紙
+  收藏的一些壁紙
+  
+  
+  
+  
+
+
+相册12345&#123;% gallery %&#125;![](h ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/pan_search.html" title="分享资源，阿里云盘、百度网盘、磁力资源搜索">分享资源，阿里云盘、百度网盘、磁力资源搜索</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-02T16:00:00.000Z" title="发表于 2022-11-03 00:00:00">2022-11-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BD%91%E7%9B%98/">网盘</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Link/">Link</a></span></div><div class="content">云盘资源搜索，包含阿里云盘，百度网盘相关搜索资源，磁力链接，种子。持续更新中…..
+阿里云
+我在使用超好用的「阿里云盘」，注册就领 300 GB 容量，完成新手任务再领 500 GB，快来试试吧 🎉点此领取福利
+
+奈斯搜索
+https://www.niceso.fun/
+
+阿里盘搜
+https://www.alipanso.com/
+
+阿里盘搜
+https://www.alipansou.com/
+
+阿里云盘小站
+https://aliyunshare.org/
+
+云盘资源网
+https://www.yunpanziyuan.com/
+
+百度网盘盘么么
+http://www.panmeme.com/
+
+大力盘
+https://www.dalipan.com/
+
+云盘狗
+https://www.yunpangou.com/
+
+动漫磁力
+一个专门分享动漫、漫画、音乐、游戏资源磁力的网站
+
+
+动漫领域
+爱恋动漫
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hexo-theme-butterfly.html" title="Butterfly 主题">Butterfly 主题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-01T16:00:00.000Z" title="发表于 2022-11-02 00:00:00">2022-11-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Hexo/">Hexo</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Themes/">Themes</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Hexo/">Hexo</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Butterfly/">Butterfly</a></span></div><div class="content">基于Hexo框架开发，使用 Butterfly 主题。
+
+Hexo 框架
+hexo-theme-butterfly 文档
+
+安装主题&amp;主题配置1234# npm安装主题npm install hexo-theme-butterfly --save# 主题配置模板cp -rf ./node_modules/hexo-theme-butterfly/_config.yml ./_config.butterfly.yml
+
+
+
+
+
+修改 _config.yml1theme: butterfly
+
+运行环境1hexo clean &amp; hexo g &amp; hexo server
+
+写作页面
+
+
+
+解释
+
+
+
+title
+【必需】页面标题
+
+
+date
+【必需】创建日期
+
+
+type
+【必需】标签、分类和友情链接需要配置
+
+
+updated
+【可选】页面更新日期
+
+
+description
+【可选】页面描述
+
+
+keywords
+【可选】页面关键字
+
+
+comments
+【可选】显示页面评论模块(默认 true)
+
+
+top_img
+【可选】页面顶部图片
+
+
+mathjax
+ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/microservices_concept.html" title="微服务概念">微服务概念</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-06-29T16:00:00.000Z" title="发表于 2022-06-30 00:00:00">2022-06-30</time></span></div><div class="content">围绕业务功能构建的，服务关注单一业务，服务间采用轻量级的通信机制，可以全自动独立部署，可以使用不同的编程语言和数据存储技术。微服务架构通过业务拆分实现服务组件化，通过组件组合快速开发系统，业务单一的服务组件又可以独立部署，使得整个系统变得清晰灵活
+API GateWay
+APP-Interface
+单点服务
+BFF（聚合、适配层）
+SOC（关注分离）
+SSR（服务端渲染）
+ELB（负载均衡）
+CQRS（命令端、查询端）
+RPC（远程过程调用）
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/process.html" title="进程-Process | 线程-Thread | 协程-Coroutine">进程-Process | 线程-Thread | 协程-Coroutine</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-08-16T16:00:00.000Z" title="发表于 2021-08-17 00:00:00">2021-08-17</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Liunx/">Liunx</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Process/">Process</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Thread/">Thread</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Coroutine/">Coroutine</a></span></div><div class="content">Process 进程是对运行时程序的封装，是系统进行资源调度和分配的的基本单位，实现了操作系统的并发；
+Thread 线程是进程的子任务，是CPU调度和分派的基本单位，用于保证程序的实时性，实现进程内部的并发线程是操作系统可识别的最小执行和调度单位。 每个线程都独自占用一个虚拟处理器：独自的寄存器组，指令计数器和处理器状态。
+Coroutine 协程微线程，更加轻量级，协程只需要KB级别。上下文切换成本低
+相关概念
+多进程 多个任务同时运行，多进程之间不共享内存
+多线程 单个任务分成不同的部分运行，共享相同的程序，共享相同的资源。线程存在于进程之中
+
+孤儿进程一个父进程退出，而它的一个或多个子进程还在运行，那么这些子进程将成为孤儿进程。
+僵尸进程一个进程使用fork创建子进程，如果子进程退出，而父进程并没有调用wait或waitpid获取子进程的状态信息，那么子进程的进程描述符仍然保存在系统中。
+守护进程后台服务进程  &amp;
+Liunx PS 运行相关参数说明
+
+
+UID
+PID
+PPID
+C
+STIME
+TTY
+TIME
+CMD
+
+
+
+用户ID
+进程ID
+父进程ID
+进程占 c ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/ffmpeg.html" title="使用 PHP-FFMpeg 操作视频/音频文件">使用 PHP-FFMpeg 操作视频/音频文件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-07-28T16:00:00.000Z" title="发表于 2021-07-29 00:00:00">2021-07-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PHP/">PHP</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ffmpeg/">ffmpeg</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/PHP/">PHP</a></span></div><div class="content">使用 PHP-FFMpeg 操作视频&#x2F;音频文件安装1composer require php-ffmpeg/php-ffmpeg
+
+获取视频信息1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677$url = &quot;视频地址&quot;;//参数配置$mpegConf = [  &#x27;ffmpeg.binaries&#x27; =&gt; env(&#x27;ffmpeg.ffmpeg&#x27;), //ffmpeg bin目录  &#x27;ffprobe.binaries&#x27; =&gt; env(&#x27;ffmpeg.ffprobe&#x27;),//ffprobe bin目录  &#x27;timeout&#x27; =&gt; 3600,  &#x27;ffmpeg.threads&#x27; =&gt; 1 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/liunx.html" title="Liunx问题总结">Liunx问题总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-07-21T16:00:00.000Z" title="发表于 2021-07-22 00:00:00">2021-07-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Liunx/">Liunx</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/F-Q/">F&amp;Q</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Liunx/">Liunx</a></span></div><div class="content">sed和awk有啥区别sed是流编辑器，而awk是文本格式化工具，报告生成器如果文件是格式化的，即由分隔符分为多个域的，优先使用awkawk适合对文件的抽取整理，sed适合对文件的编辑。awk适合按列（域）操作，sed适合按行操作sed：每次读入一行来处理的，sed 适合简单的文本替换和搜索，sed读取一行，以行作为单位，进行处理。awk：每次读入一行来处理的（同sed），但awk读取一行，切割成字段，以字段（列）为单位，进行细节处理。
+Liunx问题总结解决GitLab内存消耗大的问题
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/mysql.html" title="LEFT JOIN 查询结果不是左表的全部数据的解决方法">LEFT JOIN 查询结果不是左表的全部数据的解决方法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-07-21T16:00:00.000Z" title="发表于 2021-07-22 00:00:00">2021-07-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/MySQL/">MySQL</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/F-Q/">F&amp;Q</a></span></div><div class="content">LEFT JOIN  查询结果不是左表的全部数据的解决方法
+常见以下查询，但是发现查询结果A表的数据不是全部数据？
+
+123456789SELECT    a.id b.id,	...FROM	A a	LEFT JOIN B b ON a.id = b.idWHERE    a.name = &#x27;xxx&#x27;  AND b.name = &#x27;xxx&#x27;
+
+
+如果过滤条件是A表的字段  例如：a.xx &#x3D; ‘xxx’
+
+12345678SELECT    a.id b.id,	...FROM	A a	LEFT JOIN B b ON a.id = b.idWHERE    a.name = &#x27;xxx&#x27;
+
+
+如果过滤的是B表的字段  例如：b.xx &#x3D; ‘xxx’
+
+123456SELECT    a.id b.id,	...FROM	A a	LEFT JOIN B b ON a.id = b.id AND b.name=&#x27;xxx&#x27;
+
+
+如果同时过滤2个表的字段
+
+12345678SELECT	a.i ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/2/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#content-inner">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/4/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://s2.loli.net/2022/11/07/JutlITnLafkAc58.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ThinkBIM</div><div class="author-info__description">任何人，想要更好的生活，都必须要努力，幸福都是奋斗出来的，冰冻三尺非一日之寒，你所看到他人的光鲜靓丽，也不是一蹴而就的，日复一日的坚持，年复一年的奋斗，多努力，多学习，多成长，才能收获自己想要的！BECOME RICH</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">37</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">37</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/thinkbim" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:thinkbim@thinkbim.cn" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://github.com/ThinkBIM/hub.thinkbim.cn/issues" target="_blank" title=""><i class="fas fa-rss"></i></a><a class="social-icon" href="https://t.me/thinkbim" target="_blank" title="Telegram"><i class="fas fa-brands fa-telegram"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Algorihm/"><span class="card-category-list-name">Algorihm</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Docker/"><span class="card-category-list-name">Docker</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Git/"><span class="card-category-list-name">Git</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Google/"><span class="card-category-list-name">Google</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Hexo/"><span class="card-category-list-name">Hexo</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Jetbrains/"><span class="card-category-list-name">Jetbrains</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Liunx/"><span class="card-category-list-name">Liunx</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/MySQL/"><span class="card-category-list-name">MySQL</span><span class="card-category-list-count">6</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Algorihm/" style="font-size: 1.1em; color: #999">Algorihm</a> <a href="/tags/Aurora/" style="font-size: 1.1em; color: #999">Aurora</a> <a href="/tags/Butterfly/" style="font-size: 1.1em; color: #999">Butterfly</a> <a href="/tags/Cache/" style="font-size: 1.18em; color: #999ca1">Cache</a> <a href="/tags/Cluster/" style="font-size: 1.1em; color: #999">Cluster</a> <a href="/tags/Command/" style="font-size: 1.42em; color: #99a6b7">Command</a> <a href="/tags/Container/" style="font-size: 1.1em; color: #999">Container</a> <a href="/tags/Coroutine/" style="font-size: 1.1em; color: #999">Coroutine</a> <a href="/tags/Docker/" style="font-size: 1.26em; color: #999fa8">Docker</a> <a href="/tags/F-Q/" style="font-size: 1.18em; color: #999ca1">F&Q</a> <a href="/tags/Git/" style="font-size: 1.1em; color: #999">Git</a> <a href="/tags/Google/" style="font-size: 1.1em; color: #999">Google</a> <a href="/tags/Hexo/" style="font-size: 1.26em; color: #999fa8">Hexo</a> <a href="/tags/IDE/" style="font-size: 1.1em; color: #999">IDE</a> <a href="/tags/Image/" style="font-size: 1.1em; color: #999">Image</a> <a href="/tags/Link/" style="font-size: 1.1em; color: #999">Link</a> <a href="/tags/Liunx/" style="font-size: 1.34em; color: #99a3b0">Liunx</a> <a href="/tags/Logrotate/" style="font-size: 1.1em; color: #999">Logrotate</a> <a href="/tags/MySQL/" style="font-size: 1.5em; color: #99a9bf">MySQL</a> <a href="/tags/OOP/" style="font-size: 1.18em; color: #999ca1">OOP</a> <a href="/tags/PHP/" style="font-size: 1.1em; color: #999">PHP</a> <a href="/tags/PHP7/" style="font-size: 1.1em; color: #999">PHP7</a> <a href="/tags/PHP8/" style="font-size: 1.1em; color: #999">PHP8</a> <a href="/tags/Process/" style="font-size: 1.1em; color: #999">Process</a> <a href="/tags/Redis/" style="font-size: 1.34em; color: #99a3b0">Redis</a> <a href="/tags/Sentinel/" style="font-size: 1.1em; color: #999">Sentinel</a> <a href="/tags/Socket/" style="font-size: 1.1em; color: #999">Socket</a> <a href="/tags/Themes/" style="font-size: 1.26em; color: #999fa8">Themes</a> <a href="/tags/Thread/" style="font-size: 1.1em; color: #999">Thread</a> <a href="/tags/docker-composer/" style="font-size: 1.1em; color: #999">docker-composer</a> <a href="/tags/explain/" style="font-size: 1.1em; color: #999">explain</a> <a href="/tags/ffmpeg/" style="font-size: 1.1em; color: #999">ffmpeg</a> <a href="/tags/%E4%B8%BB%E4%BB%8E/" style="font-size: 1.1em; color: #999">主从</a> <a href="/tags/%E6%A2%85%E8%A5%BF/" style="font-size: 1.1em; color: #999">梅西</a> <a href="/tags/%E7%B4%A2%E5%BC%95/" style="font-size: 1.1em; color: #999">索引</a> <a href="/tags/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/" style="font-size: 1.1em; color: #999">面试技巧</a> <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 1.34em; color: #99a3b0">面试题</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/02/"><span class="card-archive-list-date">二月 2023</span><span class="card-archive-list-count">9</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/01/"><span class="card-archive-list-date">一月 2023</span><span class="card-archive-list-count">7</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><span class="card-archive-list-count">9</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/08/"><span class="card-archive-list-date">八月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><span class="card-archive-list-count">5</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/05/"><span class="card-archive-list-date">五月 2021</span><span class="card-archive-list-count">2</span></a></li></ul></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2023 By ThinkBIM</div><div class="footer_custom_text">BECOME RICH</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
+  getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
+    jinrishici.load(result =>{
+      if (false) {
+        const sub = []
+        const content = result.data.content
+        sub.unshift(content)
+        window.typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = result.data.content
+      }
+    })
+  })
+}
+
+if (false) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script></div></div></body></html>
