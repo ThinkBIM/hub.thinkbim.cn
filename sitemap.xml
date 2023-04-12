@@ -667,6 +667,13 @@
   </url>
   
   <url>
+    <loc>https://hub.thinkbim.cn/tags/docker-composer/</loc>
+    <lastmod>2023-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hub.thinkbim.cn/tags/Sentinel/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -675,13 +682,6 @@
   
   <url>
     <loc>https://hub.thinkbim.cn/tags/Cluster/</loc>
-    <lastmod>2023-04-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hub.thinkbim.cn/tags/docker-composer/</loc>
     <lastmod>2023-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
