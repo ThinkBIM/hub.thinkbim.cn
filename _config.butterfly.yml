@@ -4,6 +4,8 @@
 
 menu:
   动漫: /comic/ || iconfont icon-dongman
+  软件: /software/ || iconfont icon-ruanjian-1
+  书签: /bookmark/ || iconfont icon-shuqian
 # Archives: /archives/ || fas fa-archive
 # Tags: /tags/ || fas fa-tags
 # Categories: /categories/ || fas fa-folder-open
@@ -881,7 +883,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_abdma8xbd2.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_vvvi6zojcop.css">
   bottom:
   # - <script src="xxxx"></script>
 

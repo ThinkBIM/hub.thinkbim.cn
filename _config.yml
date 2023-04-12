@@ -109,4 +109,6 @@ baidusitemap:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:ThinkBIM/hub.thinkbim.cn.git
+  branch: gh-pages
