@@ -835,7 +835,7 @@ snackbar:
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
@@ -885,6 +885,7 @@ inject:
   head:
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_vvvi6zojcop.css">
   bottom:
+    - <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
   # - <script src="xxxx"></script>
 
 # CDN
