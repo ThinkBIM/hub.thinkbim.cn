@@ -50,7 +50,8 @@ define('CONST', [1,3,4]);
 use namespace\{ClassA, ClassB, ClassC as C};
 ```
 
-### 整除函数 intdiv()
+### 整除函数 
+- intdiv()
 
 
 
@@ -80,7 +81,11 @@ public function bar(): mixed {}
 $user?->user?->getUserInfo()?->info;
 ```
 
-### str_contains()、str_starts_with()和str_ends_with()函数
+
+### 字符串函数
+- str_contains() 确定字符串是否包含指定子串
+- str_starts_with() 检查字符串是否以指定子串开头
+- str_ends_with() 检查字符串是否以指定子串结尾
 
 
 ### Match表达式

@@ -6,7 +6,10 @@ description: 软件
 keywords: 软件
 ---
 
-#  1111
+# Mac
 
-[iina](https://iina.io/)
-[apifox](https://apifox.com/)
+[IINA](https://iina.io/)
+[Apifox](https://apifox.com/)
+[Typora](https://typoraio.cn/)
+[Xmind](https://xmind.app/)
+[RedisInsight-v2](https://redis.com/blog/introducing-redisinsight-2/)

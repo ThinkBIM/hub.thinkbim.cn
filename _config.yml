@@ -114,12 +114,12 @@ deploy:
   branch: gh-pages
 
 readmore:
-  enable: true
+  enable: false
   blogId: '03022-9869435173287-243'
   name: 'ThinkBIM'
   keyword: 'RICH'
   qrcode: 'https://s2.loli.net/2023/04/13/DjsQTEOSHkanz63.jpg'
   height: 'auto'
-  expires: 365
+  expires: 90
   interval: 60
   random: 1
