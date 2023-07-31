@@ -9,6 +9,21 @@ keywords: 书签
 
 # 书签
 
+{% flink %}
+- class_name: 书签
+  class_desc: 书签
+  link_list:
+  - name: TECH-GROW
+    link: https://open.techgrow.cn/
+    descr: 专注于互联网技术分享的免费开放平台
+    avatar: https://s2.loli.net/2023/04/24/8ejDS2pH3n1Vi7G.png
+  - name: SM.MS
+    link: https://smms.app/
+    descr: 图床
+    avatar: https://s2.loli.net/2023/04/24/8ejDS2pH3n1Vi7G.png
+  
+{% endflink %}
+
 - [https://open.techgrow.cn/](https://open.techgrow.cn/)
 - [https://smms.app/](https://smms.app/)
 - [https://www.deepl.com/translator](https://www.deepl.com/translator)
@@ -16,3 +31,19 @@ keywords: 书签
 - [https://bookmark.style/](https://bookmark.style/)
 - [https://www.instagram.com/](https://www.instagram.com/)
 - [https://www.aliyundrive.com/](https://www.aliyundrive.com/)
+- [https://yeasy.gitbook.io/docker_practice/](https://yeasy.gitbook.io/docker_practice/)
+
+[![Bookmark Style Card](https://svg.bookmark.style/api?url=https://www.deepl.com/translator)](https://www.deepl.com/translator)
+
+
+# 动漫
+[MX动漫](http://www.mxdm9.com/)
+[AGE动漫](https://www.agemys.org/)
+[樱花动漫](http://www.yinghuavideo.com/)
+[动漫花园BT](https://dmhy.b168.net/)
+[XDM动漫](https://www.xuandm.com/)
+
+# 影视
+[大米星球](https://www.dmxq.fun/)
+[88电影网](https://www.88hd.org/)
+

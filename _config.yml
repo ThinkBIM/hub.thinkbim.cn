@@ -114,7 +114,7 @@ deploy:
   branch: gh-pages
 
 readmore:
-  enable: false
+  enable: true
   blogId: '03022-9869435173287-243'
   name: 'ThinkBIM'
   keyword: 'RICH'
