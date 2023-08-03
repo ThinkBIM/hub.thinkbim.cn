@@ -40,10 +40,22 @@ keywords: 书签
 [MX动漫](http://www.mxdm9.com/)
 [AGE动漫](https://www.agemys.org/)
 [樱花动漫](http://www.yinghuavideo.com/)
-[动漫花园BT](https://dmhy.b168.net/)
 [XDM动漫](https://www.xuandm.com/)
+[ACG愛好者](https://acgsecrets.hk/)
+[线上动漫](https://d1-dm.online)
+[动漫花园BT](https://dmhy.b168.net/)
+[动漫领域BT](https://dmly.me/)
+[爱恋动漫BT](http://www.kisssub.org/)
 
 # 影视
 [大米星球](https://www.dmxq.fun/)
 [88电影网](https://www.88hd.org/)
+[LIBVIO影视](https://www.libvio.cc/)
+[鸭奈飞](https://yanetflix.me/)
+[电影天堂BT](https://www.dy2018.com/)
 
+# Telegram
+[LIBVIO](https://t.me/+ncgxdCaete45NjU9)
+
+# 原神
+[原神地图](https://v3.yuanshen.site/)
