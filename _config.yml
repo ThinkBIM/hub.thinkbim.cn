@@ -14,7 +14,7 @@ email: thinkbim@thinkbim.cn
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hub.thinkbim.cn
+url: https://www.thinkbim.cn
 permalink: :title.html
 permalink_defaults:
 pretty_urls:

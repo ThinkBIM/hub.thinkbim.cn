@@ -196,7 +196,7 @@ toc:
 post_copyright:
   enable: true
   decode: true
-  author_href: https://hub.thinkbim.cn
+  author_href: https://www.thinkbim.cn
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -441,7 +441,8 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 9a6499eacecd7b2a408fc0aabdf3eab3
+baidu_analytics: 7694e1d9c217f86a3e382d336b794b9c
+
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
