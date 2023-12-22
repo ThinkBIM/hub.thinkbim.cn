@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.thinkbim.cn/mysql.html</loc>
-    <lastmod>2023-12-22</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
-    <lastmod>2023-12-22</lastmod>
-  </url>
-  <url>
     <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
@@ -69,6 +61,10 @@
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
+    <loc>https://www.thinkbim.cn/algorithm.html</loc>
+    <lastmod>2023-12-22</lastmod>
+  </url>
+  <url>
     <loc>https://www.thinkbim.cn/chrome.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
@@ -81,11 +77,11 @@
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
+    <loc>https://www.thinkbim.cn/docker_info.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/docker_info.html</loc>
+    <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
@@ -153,7 +149,11 @@
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/algorithm.html</loc>
+    <loc>https://www.thinkbim.cn/mysql.html</loc>
+    <lastmod>2023-12-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
 </urlset> 
