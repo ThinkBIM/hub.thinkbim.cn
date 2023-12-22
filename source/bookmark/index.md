@@ -30,7 +30,7 @@ keywords: 书签
 - [https://www.php2golang.com/](https://www.php2golang.com/)
 - [https://bookmark.style/](https://bookmark.style/)
 - [https://www.instagram.com/](https://www.instagram.com/)
-- [https://www.aliyundrive.com/](https://www.aliyundrive.com/)
+- [https://www.alipan.com/](https://www.alipan.com/)
 - [https://yeasy.gitbook.io/docker_practice/](https://yeasy.gitbook.io/docker_practice/)
 
 [![Bookmark Style Card](https://svg.bookmark.style/api?url=https://www.deepl.com/translator)](https://www.deepl.com/translator)
@@ -53,6 +53,7 @@ keywords: 书签
 [LIBVIO影视](https://www.libvio.cc/)
 [鸭奈飞](https://yanetflix.me/)
 [电影天堂BT](https://www.dy2018.com/)
+[独播库](https://duboku.im/)
 
 # Telegram
 [LIBVIO](https://t.me/+ncgxdCaete45NjU9)

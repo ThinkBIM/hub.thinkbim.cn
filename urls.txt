@@ -32,3 +32,4 @@ https://www.thinkbim.cn/redis.html
 https://www.thinkbim.cn/redis_cluster.html
 https://www.thinkbim.cn/redis_docker.html
 https://www.thinkbim.cn/redis_persistent.html
+https://www.thinkbim.cn/bookmark
