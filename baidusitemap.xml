@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.thinkbim.cn/logrotate.html</loc>
-    <lastmod>2023-12-22</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/messi.html</loc>
-    <lastmod>2023-12-22</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/microservices_concept.html</loc>
-    <lastmod>2023-12-22</lastmod>
-  </url>
-  <url>
     <loc>https://www.thinkbim.cn/mysql.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
@@ -65,11 +53,11 @@
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/resume.html</loc>
+    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
+    <loc>https://www.thinkbim.cn/resume.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
@@ -77,7 +65,7 @@
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/algorithm.html</loc>
+    <loc>https://www.thinkbim.cn/diary/20231221.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
@@ -93,11 +81,11 @@
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/docker_info.html</loc>
+    <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
+    <loc>https://www.thinkbim.cn/docker_info.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
@@ -109,11 +97,11 @@
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/hexo.html</loc>
+    <loc>https://www.thinkbim.cn/hexo-theme-butterfly.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/hexo-theme-butterfly.html</loc>
+    <loc>https://www.thinkbim.cn/hexo.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
@@ -141,15 +129,31 @@
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/liunx.html</loc>
-    <lastmod>2023-12-22</lastmod>
-  </url>
-  <url>
     <loc>https://www.thinkbim.cn/interview_socket.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
   <url>
+    <loc>https://www.thinkbim.cn/liunx.html</loc>
+    <lastmod>2023-12-22</lastmod>
+  </url>
+  <url>
     <loc>https://www.thinkbim.cn/liunx_cmd.html</loc>
+    <lastmod>2023-12-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/logrotate.html</loc>
+    <lastmod>2023-12-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/messi.html</loc>
+    <lastmod>2023-12-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/microservices_concept.html</loc>
+    <lastmod>2023-12-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/algorithm.html</loc>
     <lastmod>2023-12-22</lastmod>
   </url>
 </urlset> 
