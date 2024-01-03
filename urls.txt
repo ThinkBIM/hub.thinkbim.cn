@@ -1,5 +1,8 @@
 https://www.thinkbim.cn/tags/
 https://www.thinkbim.cn/categories/
+https://www.thinkbim.cn/bookmark
+https://www.thinkbim.cn/comic
+https://www.thinkbim.cn/software
 https://www.thinkbim.cn/chrome.html
 https://www.thinkbim.cn/docker_image.html
 https://www.thinkbim.cn/docker_info.html
@@ -16,8 +19,6 @@ https://www.thinkbim.cn/oop.html
 https://www.thinkbim.cn/pan-search.html
 https://www.thinkbim.cn/process.html
 https://www.thinkbim.cn/docker_container.html
-https://www.thinkbim.cn/categories/index.html
-https://www.thinkbim.cn/AnimeComic/index.html
 https://www.thinkbim.cn/telegram.html
 https://www.thinkbim.cn/messi.html
 https://www.thinkbim.cn/interview.html
@@ -32,4 +33,3 @@ https://www.thinkbim.cn/redis.html
 https://www.thinkbim.cn/redis_cluster.html
 https://www.thinkbim.cn/redis_docker.html
 https://www.thinkbim.cn/redis_persistent.html
-https://www.thinkbim.cn/bookmark
