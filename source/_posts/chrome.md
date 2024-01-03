@@ -7,8 +7,8 @@ tags:
   - Google
 categories:
   - Google
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 最近 Google Chrome 更新一项新功能，用户可以从地址栏右侧分享选项找到屏幕截图的功能，不过目前没有默认开启，如果需要体验的话可以手动开启。

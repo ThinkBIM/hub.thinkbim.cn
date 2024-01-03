@@ -7,6 +7,8 @@ tags:
   - OOP 
 categories:
   - PHP
+top_img: false
+cover: false
 ---
 
 ## 面向对象程序设计简介

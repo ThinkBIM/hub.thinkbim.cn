@@ -7,8 +7,8 @@ tags:
   - Algorihm
 categories:
   - Algorihm
-top_img:
-cover:
+top_img: false
+cover: false
 ---
   
 # 时间复杂度

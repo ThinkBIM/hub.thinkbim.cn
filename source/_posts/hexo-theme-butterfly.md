@@ -9,6 +9,8 @@ tags:
   - Hexo
 categories:
   - Hexo
+top_img: false
+cover: false
 ---
 
 基于Hexo框架开发，使用 [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) 主题。

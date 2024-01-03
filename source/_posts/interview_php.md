@@ -8,8 +8,8 @@ tags:
   - 面试题
 categories:
   - 面试题
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 ## PHP

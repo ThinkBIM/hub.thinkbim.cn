@@ -8,6 +8,8 @@ tags:
   - PHP
 categories:
   - PHP
+top_img: false
+cover: false
 ---
 
 # 使用 PHP-FFMpeg 操作视频/音频文件

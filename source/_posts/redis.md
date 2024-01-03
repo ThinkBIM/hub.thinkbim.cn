@@ -7,8 +7,8 @@ tags:
   - Redis
 categories:
   - Redis
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 ## Redis有哪些数据结构。list和set有什么区别?set和zset呢?zset的底层实现

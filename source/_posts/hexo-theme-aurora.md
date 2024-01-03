@@ -9,6 +9,8 @@ tags:
   - Aurora
 categories:
   - Hexo
+top_img: false
+cover: false
 ---
 
 基于Hexo框架开发，使用 Aurora 主题。

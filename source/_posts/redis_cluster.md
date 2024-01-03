@@ -10,8 +10,8 @@ tags:
   - Cluster
 categories:
   - Redis
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 Redis支持三种集群方案

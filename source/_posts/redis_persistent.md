@@ -7,8 +7,8 @@ tags:
   - Redis
 categories:
   - Redis
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 # Redis持久化方式
 

@@ -7,8 +7,8 @@ tags:
   - MySQL
 categories:
   - 面试题
-top_img:
-cover:
+top_img: false
+cover: false
 ---
   
 # 如何实现索引机制？

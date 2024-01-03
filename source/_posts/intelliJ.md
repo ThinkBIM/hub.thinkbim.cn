@@ -7,8 +7,8 @@ tags:
   - IDE
 categories:
   - Jetbrains
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 ## 激活

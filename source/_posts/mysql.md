@@ -7,6 +7,8 @@ tags:
   - F&Q
 categories:
   - MySQL
+top_img: false
+cover: false
 ---
 
 ## LEFT JOIN  查询结果不是左表的全部数据的解决方法

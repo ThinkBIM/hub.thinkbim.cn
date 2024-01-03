@@ -7,7 +7,7 @@ tags:
   - 梅西
 categories:
 top_img: https://s2.loli.net/2023/01/18/Z9o2fHTPMtEYOw7.jpg
-cover:
+cover: false
 ---
 
 ## 利昂内尔·梅西（Lionel Messi）

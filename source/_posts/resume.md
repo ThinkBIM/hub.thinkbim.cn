@@ -7,8 +7,8 @@ tags:
   - 面试技巧
 categories:
   - 职场
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 

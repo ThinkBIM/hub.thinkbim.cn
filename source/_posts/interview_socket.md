@@ -8,8 +8,8 @@ tags:
   - 面试题
 categories:
   - 面试题
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 socket通常称为"套接字"，用于描述IP地址和端口，是一种通信链的句柄。应用程序通过

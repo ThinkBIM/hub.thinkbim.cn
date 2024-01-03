@@ -9,6 +9,8 @@ tags:
   - Docker
 categories:
   - MySQL
+top_img: false
+cover: false
 ---
 
 基于docker-compsoer 搭建MySQL主从服务器，一主一从

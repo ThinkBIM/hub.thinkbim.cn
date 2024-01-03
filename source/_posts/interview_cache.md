@@ -8,8 +8,8 @@ tags:
   - 面试题
 categories:
   - 面试题
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 缓存一致性的解决方案在不同场景下的分析

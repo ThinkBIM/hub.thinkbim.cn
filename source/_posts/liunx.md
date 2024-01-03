@@ -8,6 +8,8 @@ tags:
   - Liunx
 categories:
   - Liunx
+top_img: false
+cover: false
 ---
   
 ## sed和awk有啥区别

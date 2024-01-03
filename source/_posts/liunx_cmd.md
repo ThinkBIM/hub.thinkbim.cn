@@ -8,8 +8,8 @@ tags:
   - Liunx
 categories:
   - Liunx
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 linux命令是对Linux系统进行管理的命令。

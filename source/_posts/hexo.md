@@ -8,8 +8,8 @@ tags:
   - Themes
 categories:
   - Hexo
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 Mermaid便签可以绘制Flowchart（流程图）、Sequence diagram（时序图 ）、Class Diagram（类别图）、State Diagram（状态图）、Gantt（甘特图）和Pie Chart（圆形图）

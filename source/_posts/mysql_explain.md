@@ -8,8 +8,8 @@ tags:
   - explain
 categories:
   - MySQL
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 根据您的表、列、索引和WHERE子句中的条件的详细信息，

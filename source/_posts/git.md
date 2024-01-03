@@ -8,6 +8,8 @@ tags:
   - Git
 categories:
   - Git
+top_img: false
+cover: false
 ---
 
 [git](https://git-scm.com/) 

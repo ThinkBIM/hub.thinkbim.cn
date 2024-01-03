@@ -10,8 +10,8 @@ tags:
   - Redis
 categories:
   - Redis
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 受限于redis单点性能，配置主从复制的服务

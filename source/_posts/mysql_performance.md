@@ -7,8 +7,8 @@ tags:
   - MySQL
 categories:
   - MySQL
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 

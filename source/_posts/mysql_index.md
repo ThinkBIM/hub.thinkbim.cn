@@ -8,8 +8,8 @@ tags:
   - 索引
 categories:
   - MySQL
-top_img:
-cover:
+top_img: false
+cover: false
 ---
 
 提高操作性能的最佳方法 SELECT是在查询中测试的一个或多个列上创建索引。
