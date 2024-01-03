@@ -2,60 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.thinkbim.cn/liunx.html</loc>
-    
-    <lastmod>2024-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/liunx_cmd.html</loc>
-    
-    <lastmod>2024-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/logrotate.html</loc>
-    
-    <lastmod>2024-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/messi.html</loc>
-    
-    <lastmod>2024-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/microservices_concept.html</loc>
-    
-    <lastmod>2024-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql.html</loc>
-    
-    <lastmod>2024-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
     
     <lastmod>2024-01-03</lastmod>
@@ -164,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/resume.html</loc>
+    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -173,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
+    <loc>https://www.thinkbim.cn/resume.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -317,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/git.html</loc>
+    <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -326,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
+    <loc>https://www.thinkbim.cn/git.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -425,6 +371,60 @@
   </url>
   
   <url>
+    <loc>https://www.thinkbim.cn/liunx.html</loc>
+    
+    <lastmod>2024-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/liunx_cmd.html</loc>
+    
+    <lastmod>2024-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/logrotate.html</loc>
+    
+    <lastmod>2024-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/messi.html</loc>
+    
+    <lastmod>2024-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/microservices_concept.html</loc>
+    
+    <lastmod>2024-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql.html</loc>
+    
+    <lastmod>2024-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.thinkbim.cn/bookmark/index.html</loc>
     
     <lastmod>2023-04-13</lastmod>
@@ -496,13 +496,6 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/tags/Git/</loc>
-    <lastmod>2024-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.thinkbim.cn/tags/ffmpeg/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -511,6 +504,13 @@
   
   <url>
     <loc>https://www.thinkbim.cn/tags/PHP/</loc>
+    <lastmod>2024-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/tags/Git/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -750,14 +750,14 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/categories/Git/</loc>
+    <loc>https://www.thinkbim.cn/categories/PHP/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/categories/PHP/</loc>
+    <loc>https://www.thinkbim.cn/categories/Git/</loc>
     <lastmod>2024-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
