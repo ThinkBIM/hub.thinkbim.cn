@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.thinkbim.cn/redis.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/redis_cluster.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/redis_docker.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/resume.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/telegram.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/diary/20231221.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/diary/index.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/algorithm.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/chrome.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/docker_container.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/docker_image.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
     <loc>https://www.thinkbim.cn/docker_info.html</loc>
     <lastmod>2024-01-04</lastmod>
   </url>
@@ -21,19 +69,19 @@
     <lastmod>2024-01-04</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/hexo.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
     <loc>https://www.thinkbim.cn/intelliJ.html</loc>
     <lastmod>2024-01-04</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/interview_cache.html</loc>
+    <loc>https://www.thinkbim.cn/hexo.html</loc>
     <lastmod>2024-01-04</lastmod>
   </url>
   <url>
     <loc>https://www.thinkbim.cn/interview.html</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/interview_cache.html</loc>
     <lastmod>2024-01-04</lastmod>
   </url>
   <url>
@@ -110,54 +158,6 @@
   </url>
   <url>
     <loc>https://www.thinkbim.cn/process.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/redis.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/redis_cluster.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/redis_docker.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/resume.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/telegram.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/diary/20231221.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/diary/index.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/algorithm.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/chrome.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/docker_container.html</loc>
-    <lastmod>2024-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/docker_image.html</loc>
     <lastmod>2024-01-04</lastmod>
   </url>
 </urlset> 

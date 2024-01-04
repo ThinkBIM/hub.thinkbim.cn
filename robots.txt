@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://www.thinkbim.cn/sitemap.txt
+Sitemap: https://www.thinkbim.cn/sitemap.xml
