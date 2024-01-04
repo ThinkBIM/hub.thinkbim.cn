@@ -1,12 +1,26 @@
 ---
 title: 个人喜欢动漫推荐
 date: 2022-11-02
-updated: 2022-11-04
+updated: 2024-01-04
 description: 个人动漫推荐
-keywords: 动漫推荐|
+keywords: 动漫推荐|日漫
+top_img: false
+cover: false
 ---
 
-对于动漫爱好者来说，最痛苦的是有好看的动漫自己却不知道，下面是本人看过的动漫，个人喜好强力推荐！！！！
+对于动漫爱好者来说，最痛苦的是有好看的动漫自己却不知道。
+如果有其他观影地址请联系我，本人将持续更新
+下面是本人看过的动漫，个人喜好强力推荐！！！！
+
+## 观看地址
+> 推荐[AGE动漫](https://www.agedm.org/)和[影巢](https://www.hdhive.org/)
+
+- [AGE动漫](https://www.agedm.org/)
+- [樱花动漫](http://www.yinghuacd.com/)
+- [MX动漫](http://www.mxdm9.com/)
+- [影巢](https://www.hdhive.org/)
+- [ACG盒子](https://www.acgbox.link/)
+- [你的动漫](https://youranimes.tw/)
 
 ## 续作待续（期待）
 - 咒术回战
@@ -38,16 +52,11 @@ keywords: 动漫推荐|
 
 
 ## 完结
-- 火影忍者 `完结`
-- 犬夜叉 `完结`
-- 潮与虎 `完结`
 - 棋魂
 - BLEACH 境·界
 - 火影忍者
 - 多罗罗
-- 东京食尸鬼 `完结`
-- 死亡笔记大场鸫
-- 进击的巨人 `完结`
+- 死亡笔记
 - OVERLORD `I II III IV`
 - 工作细胞
 - 大理石日记
@@ -59,19 +68,17 @@ keywords: 动漫推荐|
 - 派对浪客诸葛孔明
 - 骸骨骑士大人异世界冒险中
 - 转生贤者的异世界生活
-- 夏日重现 `完结`
 - 金装的维尔梅～濒临堕落的魔法师和最强的灾厄一起冲入魔法世界～
 - 在异世界迷宫开后宫
 - 间谍过家家 `I II`
 - 看得见的女孩
 - 某科学的超电磁炮
 - 关于我转生变成史莱姆这档事 `I II`
-- 镇魂街 `I`
+- 镇魂街 `I II`
 - 百妖谱 `I II`
 - 妖精的尾巴
 - 斗破苍穹 `I II III IV`
 - 转生成蜘蛛又怎样
-- 异世界药局 `完结`
 - 转生成为魔剑
 - 因为太怕痛就全点防御力了 `I II`
 - 终末的女武神 `I II`
@@ -79,9 +86,21 @@ keywords: 动漫推荐|
 - 地狱乐
 - 禁忌咒纹
 - 亡骸游戏
+- 天国大魔境
+- 异世界药局
+- 我推的孩子
+- 咒术回战 `I II`
+- 进击的巨人 `完结`
+- 异世界药局 `完结`
+- 夏日重现 `完结`
+- 火影忍者 `完结`
+- 犬夜叉 `完结`
+- 潮与虎 `完结`
+- 东京食尸鬼 `完结`
 
 
 ## 剧场&电影
+- 画江湖之天罡
 - 狐妖小红娘·月红2
 - 西游记之大圣归来
 - 声之形
@@ -131,9 +150,13 @@ keywords: 动漫推荐|
 
 
 # 观看地址
+> 推荐AGE动漫和影巢
 
-- [AGE动漫](https://www.agemys.net/)
+- [AGE动漫](https://www.agedm.org/)
 - [樱花动漫](http://www.yinghuacd.com/)
+- [MX动漫](http://www.mxdm9.com/)
+- [影巢](https://www.hdhive.org/)
+- [ACG盒子](https://www.acgbox.link/)
+- [你的动漫](https://youranimes.tw/)
 - [排行榜](https://www.agemys.net/rank)
 - [日漫新番表](https://acgsecrets.hk/bangumi)
-- [MX动漫](http://www.mxdm9.com/)
