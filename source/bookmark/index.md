@@ -20,6 +20,10 @@ cover: false
     link: https://smms.app/
     descr: 用于分享图片
     avatar: https://smms.app/assets/images/og.png
+  - name: imgur
+    link: https://imgur.com/
+    descr: 用于分享图片
+    avatar: https://s.imgur.com/images/favicon-96x96.png
   - name : TECH-GROW
     link: https://open.techgrow.cn/
     descr: 专注于自媒体引流的免费开放平台
@@ -123,6 +127,32 @@ cover: false
     avatar: https://duboku.im/favicon.ico
 {% endflink %}
 
+{% flink %}
+- class_name: 图书
+  class_desc: 图书、漫画
+  link_list:
+  - name: 无名图书
+    link: https://www.book123.info/
+    descr: 免费的电子书下载网站，很简洁的电子书网站，下载方便，不需要注册
+    avatar: https://static.book123.info/web_images/logo.png
+  - name: 备胎书屋
+    link: https://beitai.cc/
+    descr: 书屋无广告、下载无任何门槛套路
+    avatar: https://static.book123.info/web_images/logo.png
+  - name: Z-Library
+    link: https://zh.singlelogin.re/
+    descr: 世界上最大的电子图书馆。自由访问知识和文化。
+    avatar: https://zh.singlelogin.re/favicon.svg
+  - name: Kox.moe
+    link: https://mox.moe/
+    descr: kindle漫画,mobi漫画,漫画下载,漫画推送,Kobo漫画,epub漫画
+    avatar: https://mox.moe/img/mox-logo-256.png
+  - name: Mangabz
+    link: https://mox.moe/
+    descr: 日本漫画，在线漫画阅读第一站
+    avatar: https://www.mangabz.com/favicon.ico
+{% endflink %}
+    
 
 {% flink %}
 - class_name: Telegram
