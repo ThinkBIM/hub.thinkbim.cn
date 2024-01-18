@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Final Cut Pro非线性影片剪辑软件，强大的音频处理、兼容性强</title>
+      <link href="/final_cut.html"/>
+      <url>/final_cut.html</url>
+      
+        <content type="html"><![CDATA[<ol><li><code>非线性编辑</code>：与传统的线性编辑方式不同，Final Cut Pro允许用户在任何时间点上添加、删除或改变片段，而不会影响到整个项目的时间线。</li><li><code>强大的音频处理</code>：FCP提供了高级的音频处理工具，包括音频清理、均衡、动态和混响等，使得音频剪辑更加轻松。</li><li><code>强大的特效支持</code>：Final Cut Pro支持各种特效，包括过渡、滤镜、动画和合成，可以轻松制作出专业级的视频效果。</li><li><code>强大的色彩校正</code>：FCP内置了色彩校正工具，可以帮助用户调整色彩平衡、饱和度和对比度等，使视频更具吸引力。</li><li><code>兼容性强</code>：Final Cut Pro支持多种格式，包括Apple ProRes、H.264和H.265等，可以满足不同的项目需求。</li><li><code>集成性强</code>：FCP可以与其他苹果软件无缝集成，如Motion、Compressor和Aperture等，方便用户进行完整的视频制作流程。</li></ol><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><table><thead><tr><th align="left">操作</th><th align="left">快捷键</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left">从头播放</td><td align="left"><mark class="hl-label default">⌥</mark>  <mark class="hl-label default">␣</mark> </td><td align="left">从头播放</td></tr></tbody></table><h2 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h2><table><thead><tr><th align="left">操作</th><th align="left">快捷键</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left">音量增加</td><td align="left"><mark class="hl-label default">⌃</mark>  <mark class="hl-label default">=</mark> </td><td align="left"></td></tr><tr><td align="left">音量减少</td><td align="left"><mark class="hl-label default">⌘</mark>  <mark class="hl-label default">_</mark> </td><td align="left"></td></tr></tbody></table><h2 id="图层"><a href="#图层" class="headerlink" title="图层"></a>图层</h2><table><thead><tr><th align="left">操作</th><th align="left">快捷键</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left">删除</td><td align="left"><mark class="hl-label default">⇧</mark>  <mark class="hl-label default">⌫</mark> </td><td align="left"></td></tr><tr><td align="left">停用</td><td align="left"><mark class="hl-label default">V</mark> </td><td align="left"><code>对所选部分启用或停用播放</code></td></tr><tr><td align="left">插入</td><td align="left"><mark class="hl-label default">W</mark> </td><td align="left"><code>在浏览条或播放头位置插入所选内容</code></td></tr><tr><td align="left">连接</td><td align="left"><mark class="hl-label default">Q</mark> </td><td align="left"><code>将所选内容连接到主要故事情节</code></td></tr><tr><td align="left">追加</td><td align="left"><mark class="hl-label default">E</mark> </td><td align="left"><code>追加到故事情节</code></td></tr><tr><td align="left">覆盖</td><td align="left"><mark class="hl-label default">D</mark> </td><td align="left"><code>在浏览条或播放头位置覆盖</code></td></tr></tbody></table><h4 id="混合模式"><a href="#混合模式" class="headerlink" title="混合模式"></a>混合模式</h4><p>相减 去掉白色<br>相加 去掉黑色<br>Alpha 主轨道素材隐藏</p><h2 id="字幕"><a href="#字幕" class="headerlink" title="字幕"></a>字幕</h2><table><thead><tr><th align="left">操作</th><th align="left">快捷键</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left">添加默认</td><td align="left"><mark class="hl-label default">⌃</mark>  <mark class="hl-label default">T</mark> </td><td align="left">添加默认字幕</td></tr><tr><td align="left">添加下三分之一</td><td align="left"><mark class="hl-label default">⌃</mark>  <mark class="hl-label default">⇧</mark>  <mark class="hl-label default">T</mark> </td><td align="left">添加默认字幕</td></tr><tr><td align="left">复制</td><td align="left"><mark class="hl-label blue">⌥</mark> </td><td align="left">添加默认字幕</td></tr></tbody></table><h2 id="关键帧"><a href="#关键帧" class="headerlink" title="关键帧"></a>关键帧</h2><table><thead><tr><th align="left">操作</th><th align="left">快捷键</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left">显示&#x2F;隐藏视频动画</td><td align="left"><mark class="hl-label default">⌃</mark>  <mark class="hl-label default">V</mark> </td><td align="left">显示&#x2F;隐藏视频动画</td></tr><tr><td align="left">添加</td><td align="left"><mark class="hl-label default">⌥</mark>  <mark class="hl-label default">K</mark> </td><td align="left">添加关键帧</td></tr><tr><td align="left">复制</td><td align="left"><mark class="hl-label default">⌥</mark>  <mark class="hl-label default">⇧</mark>  <mark class="hl-label default">C</mark> </td><td align="left">添加关键帧</td></tr><tr><td align="left">粘贴</td><td align="left"><mark class="hl-label default">⌥</mark>  <mark class="hl-label default">⇧</mark>  <mark class="hl-label default">V</mark> </td><td align="left">添加关键帧</td></tr></tbody></table><h2 id="调色"><a href="#调色" class="headerlink" title="调色"></a>调色</h2><p>白平衡 黑白灰<br>色轮 阴影、高光、中间调</p><h1 id="按键说明"><a href="#按键说明" class="headerlink" title="按键说明"></a>按键说明</h1><table><thead><tr><th align="left">按键</th><th align="left">键位</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">Command</td><td align="left"><mark class="hl-label default">⌘</mark> </td><td align="left"></td></tr><tr><td align="left">Control</td><td align="left"><mark class="hl-label default">⌃</mark> </td><td align="left"></td></tr><tr><td align="left">Option</td><td align="left"><mark class="hl-label default">⌥</mark> </td><td align="left"></td></tr><tr><td align="left">Shift</td><td align="left"><mark class="hl-label default">⇧</mark> </td><td align="left"></td></tr><tr><td align="left">删除</td><td align="left"><mark class="hl-label default">⌫</mark> </td><td align="left"></td></tr><tr><td align="left">空格</td><td align="left"><mark class="hl-label default">␣</mark> </td><td align="left"></td></tr><tr><td align="left">长按</td><td align="left"><mark class="hl-label blue">⌘</mark> </td><td align="left">背景加深代表长按</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 剪辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> final Cut Pro </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>英语学习博主推荐，英语学习工具推荐</title>
       <link href="/english_tools.html"/>
       <url>/english_tools.html</url>
@@ -235,31 +260,6 @@
     
     
     <entry>
-      <title>面试技巧</title>
-      <link href="/resume.html"/>
-      <url>/resume.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="简历篇"><a href="#简历篇" class="headerlink" title="简历篇"></a>简历篇</h1><h2 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h2><ol><li>我是谁</li><li>为什么能够胜任工作？</li><li>我为什么想要这份工作？</li></ol><p>3分钟左右的自我介绍，可以自己每天对着镜子练习练习，表述清晰。（自信）<br>要结合这个工作的要求来讲，你为什么胜任这个工作，这点非常非常重要！（寻找契合点）</p><h2 id="投放平台"><a href="#投放平台" class="headerlink" title="投放平台"></a>投放平台</h2><ul><li><a href="https://www.zhipin.com/">BOSS直聘</a></li><li><a href="https://www.lagou.com/">拉钩</a></li><li><a href="https://www.zhaopin.com/">智联招聘</a></li><li><a href="https://www.51job.com/">前程无忧</a></li></ul><p>投放时间上午8:30-10:00；下午13:30-15:00；不要投递同一个公司，不要投递一个职位</p><p>了解公司 <a href="https://www.tianyancha.com/">天眼查</a></p><ul><li>分类<ol><li>IT服务</li><li>计算机软件</li><li>互联网</li></ol></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 职场 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 面试技巧 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Redis持久化二种方式详解（AOF、RDB）</title>
       <link href="/redis_persistent.html"/>
       <url>/redis_persistent.html</url>
@@ -277,6 +277,31 @@
         <tags>
             
             <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>面试技巧</title>
+      <link href="/resume.html"/>
+      <url>/resume.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="简历篇"><a href="#简历篇" class="headerlink" title="简历篇"></a>简历篇</h1><h2 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h2><ol><li>我是谁</li><li>为什么能够胜任工作？</li><li>我为什么想要这份工作？</li></ol><p>3分钟左右的自我介绍，可以自己每天对着镜子练习练习，表述清晰。（自信）<br>要结合这个工作的要求来讲，你为什么胜任这个工作，这点非常非常重要！（寻找契合点）</p><h2 id="投放平台"><a href="#投放平台" class="headerlink" title="投放平台"></a>投放平台</h2><ul><li><a href="https://www.zhipin.com/">BOSS直聘</a></li><li><a href="https://www.lagou.com/">拉钩</a></li><li><a href="https://www.zhaopin.com/">智联招聘</a></li><li><a href="https://www.51job.com/">前程无忧</a></li></ul><p>投放时间上午8:30-10:00；下午13:30-15:00；不要投递同一个公司，不要投递一个职位</p><p>了解公司 <a href="https://www.tianyancha.com/">天眼查</a></p><ul><li>分类<ol><li>IT服务</li><li>计算机软件</li><li>互联网</li></ol></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 职场 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 面试技巧 </tag>
             
         </tags>
       
