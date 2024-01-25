@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
+    
+    <lastmod>2024-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_index.html</loc>
+    
+    <lastmod>2024-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_schema.html</loc>
+    
+    <lastmod>2024-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_performance.html</loc>
+    
+    <lastmod>2024-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.thinkbim.cn/oop.html</loc>
     
     <lastmod>2024-01-25</lastmod>
@@ -65,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/resume.html</loc>
+    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -74,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
+    <loc>https://www.thinkbim.cn/resume.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -101,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/diary/index.html</loc>
+    <loc>https://www.thinkbim.cn/golang/index.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -110,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/golang/index.html</loc>
+    <loc>https://www.thinkbim.cn/diary/index.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -362,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/logrotate.html</loc>
+    <loc>https://www.thinkbim.cn/liunx_cmd.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -371,7 +407,7 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/liunx_cmd.html</loc>
+    <loc>https://www.thinkbim.cn/logrotate.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -408,42 +444,6 @@
   
   <url>
     <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
-    
-    <lastmod>2024-01-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
-    
-    <lastmod>2024-01-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_index.html</loc>
-    
-    <lastmod>2024-01-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_performance.html</loc>
-    
-    <lastmod>2024-01-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_schema.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -656,20 +656,6 @@
   </url>
   
   <url>
-    <loc>https://www.thinkbim.cn/tags/%E4%B8%BB%E4%BB%8E/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/tags/Docker/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.thinkbim.cn/tags/explain/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -678,6 +664,20 @@
   
   <url>
     <loc>https://www.thinkbim.cn/tags/%E7%B4%A2%E5%BC%95/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/tags/%E4%B8%BB%E4%BB%8E/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/tags/Docker/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

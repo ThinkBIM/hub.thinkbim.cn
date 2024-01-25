@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
+    <lastmod>2024-01-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_index.html</loc>
+    <lastmod>2024-01-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_schema.html</loc>
+    <lastmod>2024-01-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_performance.html</loc>
+    <lastmod>2024-01-25</lastmod>
+  </url>
+  <url>
     <loc>https://www.thinkbim.cn/oop.html</loc>
     <lastmod>2024-01-25</lastmod>
   </url>
@@ -29,11 +45,11 @@
     <lastmod>2024-01-25</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/resume.html</loc>
+    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
     <lastmod>2024-01-25</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
+    <loc>https://www.thinkbim.cn/resume.html</loc>
     <lastmod>2024-01-25</lastmod>
   </url>
   <url>
@@ -133,11 +149,11 @@
     <lastmod>2024-01-25</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/logrotate.html</loc>
+    <loc>https://www.thinkbim.cn/liunx_cmd.html</loc>
     <lastmod>2024-01-25</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/liunx_cmd.html</loc>
+    <loc>https://www.thinkbim.cn/logrotate.html</loc>
     <lastmod>2024-01-25</lastmod>
   </url>
   <url>
@@ -154,22 +170,6 @@
   </url>
   <url>
     <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
-    <lastmod>2024-01-25</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
-    <lastmod>2024-01-25</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_index.html</loc>
-    <lastmod>2024-01-25</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_performance.html</loc>
-    <lastmod>2024-01-25</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_schema.html</loc>
     <lastmod>2024-01-25</lastmod>
   </url>
 </urlset> 
