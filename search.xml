@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Office for Mac快捷键（Excel）</title>
+      <link href="/microsoft365_excel.html"/>
+      <url>/microsoft365_excel.html</url>
+      
+        <content type="html"><![CDATA[<p>Microsoft Excel是Microsoft为使用Windows和Apple Macintosh操作系统的电脑编写的一款电子表格软件。它直观的界面、出色的计算功能和图表工具。</p><h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><table><thead><tr><th>操作</th><th>快捷键</th><th>描述</th></tr></thead><tbody><tr><td>选择性粘贴</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⌃</mark> <mark class="hl-label default">V</mark> </td><td></td></tr><tr><td>删除整行</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">-</mark> </td><td></td></tr><tr><td>换行</td><td><mark class="hl-label default">⌥</mark> <mark class="hl-label default">⏎</mark> </td><td>单元格换行</td></tr><tr><td>移动到工作表的开头</td><td><mark class="hl-label default">Fn</mark> <mark class="hl-label default">⌃</mark> <mark class="hl-label default">←</mark> </td><td></td></tr><tr><td>移动到工作表的最后单元格</td><td><mark class="hl-label default">Fn</mark> <mark class="hl-label default">⌃</mark> <mark class="hl-label default">→</mark> </td><td></td></tr><tr><td>移动行开始</td><td><mark class="hl-label default">Fn</mark> <mark class="hl-label default">←</mark> </td><td></td></tr><tr><td>向下填充</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">D</mark> </td><td></td></tr><tr><td>向右填充</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">R</mark> </td><td></td></tr><tr><td>选中单元格</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⇧</mark> <mark class="hl-label default">→</mark> <br /><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⇧</mark> <mark class="hl-label default">↓</mark> </td><td></td></tr><tr><td>整个工作表</td><td><mark class="hl-label default">Fn</mark> <mark class="hl-label default">⌃</mark> <mark class="hl-label default">⇧</mark> <mark class="hl-label default">→</mark> </td><td></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> Excel </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shortcuts </tag>
+            
+            <tag> Excel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Sketch 是一款适用于 Mac 的矢量设计工具，专注于屏幕设计。常用快捷键</title>
       <link href="/sketch.html"/>
       <url>/sketch.html</url>
@@ -62,7 +89,7 @@
       <link href="/typora.html"/>
       <url>/typora.html</url>
       
-        <content type="html"><![CDATA[<ol><li>风格极简 &#x2F; 多种主题 &#x2F; 支持 macOS，Windows 及 Linux</li><li>实时预览 &#x2F; 图片与文字 &#x2F; 代码块 &#x2F; 数学公式 &#x2F; 图表</li><li>目录大纲 &#x2F; 文件管理 &#x2F; 导入与导出</li></ol><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><table><thead><tr><th align="left">操作</th><th align="left">快捷键</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left">跳转顶部</td><td align="left"><mark class="hl-label default">⌘</mark>  <mark class="hl-label default">↑</mark> </td><td align="left"></td></tr><tr><td align="left">跳转底部</td><td align="left"><mark class="hl-label default">⌘</mark> <mark class="hl-label default">↓</mark> </td><td align="left"></td></tr><tr><td align="left"></td><td align="left"><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⇧</mark> <mark class="hl-label default">⌫</mark> </td><td align="left"></td></tr></tbody></table><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table><thead><tr><th>操作</th><th>快捷键</th><th>描述</th></tr></thead><tbody><tr><td>创建</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⌥</mark> <mark class="hl-label default">T</mark> </td><td></td></tr><tr><td>删除行</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⇧</mark> <mark class="hl-label default">⌫</mark> </td><td></td></tr><tr><td>添加行</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⏎</mark> </td><td></td></tr></tbody></table><h1 id="按键说明"><a href="#按键说明" class="headerlink" title="按键说明"></a>按键说明</h1><table><thead><tr><th align="left">按键</th><th align="left">键位</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">Command</td><td align="left"><mark class="hl-label default">⌘</mark> </td><td align="left"></td></tr><tr><td align="left">Control</td><td align="left"><mark class="hl-label default">⌃</mark> </td><td align="left"></td></tr><tr><td align="left">Option</td><td align="left"><mark class="hl-label default">⌥</mark> </td><td align="left"></td></tr><tr><td align="left">Shift</td><td align="left"><mark class="hl-label default">⇧</mark> </td><td align="left"></td></tr><tr><td align="left">删除</td><td align="left"><mark class="hl-label default">⌫</mark> </td><td align="left"></td></tr><tr><td align="left">空格</td><td align="left"><mark class="hl-label default">␣</mark> </td><td align="left"></td></tr><tr><td align="left">长按</td><td align="left"><mark class="hl-label blue">⌘</mark> </td><td align="left">背景加深代表长按</td></tr><tr><td align="left">回车</td><td align="left"><mark class="hl-label default">⏎</mark> </td><td align="left"></td></tr><tr><td align="left">方向</td><td align="left"><mark class="hl-label default">↑</mark> <mark class="hl-label default">↓</mark> <mark class="hl-label default">←</mark> <mark class="hl-label default">→</mark> </td><td align="left"></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<ol><li>风格极简 &#x2F; 多种主题 &#x2F; 支持 macOS，Windows 及 Linux</li><li>实时预览 &#x2F; 图片与文字 &#x2F; 代码块 &#x2F; 数学公式 &#x2F; 图表</li><li>目录大纲 &#x2F; 文件管理 &#x2F; 导入与导出</li></ol><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><table><thead><tr><th align="left">操作</th><th align="left">快捷键</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left">跳转顶部</td><td align="left"><mark class="hl-label default">⌘</mark>  <mark class="hl-label default">↑</mark> </td><td align="left"></td></tr><tr><td align="left">跳转底部</td><td align="left"><mark class="hl-label default">⌘</mark> <mark class="hl-label default">↓</mark> </td><td align="left"></td></tr><tr><td align="left"></td><td align="left"><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⇧</mark> <mark class="hl-label default">⌫</mark> </td><td align="left"></td></tr></tbody></table><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table><thead><tr><th>操作</th><th>快捷键</th><th>描述</th></tr></thead><tbody><tr><td>创建</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⌥</mark> <mark class="hl-label default">T</mark> </td><td></td></tr><tr><td>删除行</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⇧</mark> <mark class="hl-label default">⌫</mark> </td><td></td></tr><tr><td>添加行</td><td><mark class="hl-label default">⌘</mark> <mark class="hl-label default">⏎</mark> </td><td></td></tr><tr><td>换行</td><td><mark class="hl-label default">⇧</mark> <mark class="hl-label default">⏎</mark> </td><td>插入换行符</td></tr></tbody></table><h1 id="按键说明"><a href="#按键说明" class="headerlink" title="按键说明"></a>按键说明</h1><table><thead><tr><th align="left">按键</th><th align="left">键位</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">Command</td><td align="left"><mark class="hl-label default">⌘</mark> </td><td align="left"></td></tr><tr><td align="left">Control</td><td align="left"><mark class="hl-label default">⌃</mark> </td><td align="left"></td></tr><tr><td align="left">Option</td><td align="left"><mark class="hl-label default">⌥</mark> </td><td align="left"></td></tr><tr><td align="left">Shift</td><td align="left"><mark class="hl-label default">⇧</mark> </td><td align="left"></td></tr><tr><td align="left">删除</td><td align="left"><mark class="hl-label default">⌫</mark> </td><td align="left"></td></tr><tr><td align="left">空格</td><td align="left"><mark class="hl-label default">␣</mark> </td><td align="left"></td></tr><tr><td align="left">长按</td><td align="left"><mark class="hl-label blue">⌘</mark> </td><td align="left">背景加深代表长按</td></tr><tr><td align="left">回车</td><td align="left"><mark class="hl-label default">⏎</mark> </td><td align="left"></td></tr><tr><td align="left">方向</td><td align="left"><mark class="hl-label default">↑</mark> <mark class="hl-label default">↓</mark> <mark class="hl-label default">←</mark> <mark class="hl-label default">→</mark> </td><td align="left"></td></tr></tbody></table>]]></content>
       
       
       <categories>
@@ -783,9 +810,9 @@
             
             <tag> Themes </tag>
             
-            <tag> Butterfly </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Butterfly </tag>
             
         </tags>
       
