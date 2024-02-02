@@ -1,12 +1,12 @@
 ---
 title: 软件
 date: 2023-04-12
-updated: 2023-04-12
+updated: 2024-02-01
 description: 软件
 keywords: 软件
 ---
 
-# Mac
+## Mac
 
 [IINA](https://iina.io/)
 
@@ -25,3 +25,5 @@ keywords: 软件
 [Final Cut Pro](https://www.apple.com.cn/final-cut-pro/)
 
 [Motion](https://www.apple.com.cn/final-cut-pro/motion/)
+
+[Downie 4](https://software.charliemonroe.net/downie/)
