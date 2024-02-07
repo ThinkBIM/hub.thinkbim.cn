@@ -1,9 +1,9 @@
 ---
-title: 个人书签（持续更新...）
+title: 个人书签（持续更新中...）
 date: 2023-04-12
-updated: 2024-01-10
+updated: 2024-02-07 15:00:00
 description: 常用工具、动漫观看地址、学习、应用等相关分享
-keywords: 常用工具、动漫观看地址、学习、应用等相关分享
+keywords: 常用工具、动漫观看地址、学习、应用等相关分享|书签
 top_img: https://kusuriyanohitorigoto.jp/assets/img/common/bg/subcont_bg_sp.jpg
 cover: false
 ---
@@ -13,17 +13,9 @@ cover: false
 
 
 {% flink %}
-- class_name: 书签
+- class_name: 工具
   class_desc: 好用的用户分享
   link_list:
-  - name: SM.MS
-    link: https://smms.app/
-    descr: 用于分享图片
-    avatar: https://smms.app/assets/images/og.png
-  - name: imgur
-    link: https://imgur.com/
-    descr: 用于分享图片
-    avatar: https://s.imgur.com/images/favicon-96x96.png
   - name : TECH-GROW
     link: https://open.techgrow.cn/
     descr: 专注于自媒体引流的免费开放平台
@@ -44,10 +36,6 @@ cover: false
     link: https://bookmark.style/
     descr: 图片分享社交应用 网络照片分享应用
     avatar: https://static.cdninstagram.com/rsrc.php/v3/yx/r/H1l_HHqi4p6.png
-  - name : 阿里云盘
-    link: https://www.alipan.com/
-    descr: 阿里云盘 - 备份无忧 整理有序
-    avatar: https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico
   - name : Docker — 从入门到实践
     link: https://bookmark.style/
     descr: Docker — 从入门到实践
@@ -56,10 +44,10 @@ cover: false
     link: https://landrop.app/
     descr: 跨平台传输工具，iOS、Android、macOS、Windows、Linux
     avatar: https://landrop.app/img/LANDrop.svg
-  - name : VidHub
-    link: https://bookmark.style/
-    descr: iOS/Mac/tvOS网盘视频播放器
-    avatar: https://cdn.zh.okaapps.com/resource/icon/app_icons/vidhub.png
+  - name : Free MP3 Download
+    link: https://free-mp3-download.net/
+    descr: 音乐下载
+    avatar: https://free-mp3-download.net/img/icon_48.png
 {% endflink %}
 
 
@@ -151,8 +139,67 @@ cover: false
     link: https://mox.moe/
     descr: 日本漫画，在线漫画阅读第一站
     avatar: https://www.mangabz.com/favicon.ico
+  - name: 24h搜书网
+    link: https://24hbook.com/
+    descr: 24h搜书网
+    avatar: https://24hbook.com/icon.png
+  - name: 书栈网
+    link: https://www.bookstack.cn/
+    descr: 书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！
+    avatar: https://www.bookstack.cn/favicon.ico
 {% endflink %}
-    
+
+{% flink %}
+  - class_name: 云盘
+    class_desc: 云盘
+    link_list:
+    - name : 阿里云盘
+      link: https://www.alipan.com/
+      descr: 阿里云盘 - 备份无忧 整理有序
+      avatar: https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico
+    - name : PikPak
+      link: https://mypikpak.com/
+      descr: PikPak - 极速秒存的私密云盘
+      avatar: https://mypikpak.com/favicon-32x32.png
+    - name : 夸克网盘
+      link: https://pan.quark.cn/
+      descr: 夸克网盘是夸克推出的一款云服务产品，功能包括云存储、高清看剧、文件在线解压、PDF一键转换等。通过夸克网盘可随时随地管理和使用照片、文档、手机资料，目前支持Android、iOS、PC、iPad。
+      avatar: https://pan.quark.cn/favicon.ico
+    - name : VidHub
+      link: https://zh.okaapps.com/product/1659622164
+      descr: 网盘视频播放器
+      avatar: https://cdn.zh.okaapps.com/resource/icon/app_icons/vidhub.png
+{% endflink %}
+
+
+{% flink%}
+- class_name: 图床
+  class_desc:
+  link_list:
+  - name: SM.MS
+    link: https://smms.app/
+    descr: 用于分享图片
+    avatar: https://smms.app/assets/images/og.png
+  - name: imgur
+    link: https://imgur.com/
+    descr: 用于分享图片
+    avatar: https://s.imgur.com/images/favicon-96x96.png
+  - name: IMG.TG
+    link: https://img.tg/
+    descr: 用于分享图片
+    avatar: https://img.tg/content/images/system/favicon_1577485637816_5e2bd1.png
+{% endflink%}
+
+{% flink %}
+- class_name: 科学上网
+  class_desc:
+  link_list:
+  - name: Dukou
+    link: https://dukou.icu/user/register?code=VEDL
+    descr: Dukou
+    avatar: https://dukou.icu/logo.ico
+{% endflink%}
+
 
 {% flink %}
 - class_name: Telegram
@@ -164,6 +211,7 @@ cover: false
     avatar: https://s2.loli.net/2024/01/10/91C6AsiOzGvJSfZ.png
 {% endflink %}
 
+
 {% flink %}
 - class_name: 
   class_desc:
@@ -173,4 +221,3 @@ cover: false
     descr:  　
     avatar: https://s2.loli.net/2024/01/10/91C6AsiOzGvJSfZ.png
 {% endflink %}
-

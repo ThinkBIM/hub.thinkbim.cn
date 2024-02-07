@@ -23,6 +23,7 @@ cover: false
 | 跳转顶部 | {% label ⌘ %} {% label ↑ %}             |      |
 | 跳转底部 | {% label ⌘ %}{% label ↓ %}              |      |
 |          | {% label ⌘ %}{% label ⇧ %}{% label ⌫ %} |      |
+| 段落     | {% label ⌘ %}{% label 0 %}              |      |
 
 
 

@@ -28,4 +28,6 @@ Microsoft Excel是Microsoft为使用Windows和Apple Macintosh操作系统的电�
 | 向右填充                 | {% label ⌘ %}{% label R %}                                   |            |
 | 选中单元格               | {% label ⌘ %}{% label ⇧ %}{% label → %}<br />{% label ⌘ %}{% label ⇧ %}{% label ↓ %} |            |
 | 整个工作表               | {% label Fn %}{% label ⌃ %}{% label ⇧ %}{% label → %}        |            |
+| 日期                     | {% label ⌃ %}{% label ; %}                                   | Y-m-d      |
+| 时间                     | {% label ⌘ %}{% label ; %}                                   | H:i:s      |
 
