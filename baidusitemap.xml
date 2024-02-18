@@ -5,7 +5,15 @@
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/diary/2023/1221.html</loc>
+    <loc>https://www.thinkbim.cn/diary/2023/0109.html</loc>
+    <lastmod>2024-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/diary/2023/0111.html</loc>
+    <lastmod>2024-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/diary/2023/0112.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
@@ -14,26 +22,6 @@
   </url>
   <url>
     <loc>https://www.thinkbim.cn/diary/2024/0218.html</loc>
-    <lastmod>2024-02-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/docker_container.html</loc>
-    <lastmod>2024-02-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/docker_image.html</loc>
-    <lastmod>2024-02-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/docker_info.html</loc>
-    <lastmod>2024-02-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
-    <lastmod>2024-02-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thinkbim.cn/english_tools.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
@@ -81,11 +69,11 @@
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/liunx.html</loc>
+    <loc>https://www.thinkbim.cn/interview_socket.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/interview_socket.html</loc>
+    <loc>https://www.thinkbim.cn/liunx.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
@@ -117,11 +105,11 @@
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
+    <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
+    <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
@@ -133,11 +121,11 @@
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/mysql_schema.html</loc>
+    <loc>https://www.thinkbim.cn/oop.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/oop.html</loc>
+    <loc>https://www.thinkbim.cn/mysql_schema.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
@@ -149,11 +137,11 @@
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/process.html</loc>
+    <loc>https://www.thinkbim.cn/redis.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/redis.html</loc>
+    <loc>https://www.thinkbim.cn/process.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
@@ -165,11 +153,11 @@
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
+    <loc>https://www.thinkbim.cn/resume.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
-    <loc>https://www.thinkbim.cn/resume.html</loc>
+    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
   <url>
@@ -190,6 +178,26 @@
   </url>
   <url>
     <loc>https://www.thinkbim.cn/chrome.html</loc>
+    <lastmod>2024-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/docker_image.html</loc>
+    <lastmod>2024-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/docker_container.html</loc>
+    <lastmod>2024-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/docker_info.html</loc>
+    <lastmod>2024-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/english_tools.html</loc>
+    <lastmod>2024-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
     <lastmod>2024-02-18</lastmod>
   </url>
 </urlset> 
