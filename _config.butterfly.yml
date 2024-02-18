@@ -6,6 +6,7 @@ menu:
   动漫: /comic/ || iconfont icon-dongman
   软件: /software/ || iconfont icon-ruanjian-1
   书签: /bookmark/ || iconfont icon-shuqian
+  日记: /diary/ || iconfont icon-riji
 # Archives: /archives/ || fas fa-archive
 # Tags: /tags/ || fas fa-tags
 # Categories: /categories/ || fas fa-folder-open
