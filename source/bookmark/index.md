@@ -48,6 +48,10 @@ cover: false
     link: https://free-mp3-download.net/
     descr: 音乐下载
     avatar: https://free-mp3-download.net/img/icon_48.png
+  - name: IObit Uninstaller 13 Free
+    link: https://www.iobit.com/en/advanceduninstaller.php
+    descr: 下载 IObit Uninstaller 13 免费 - 100% 免费卸载程序和插件
+    avatar: https://s2.loli.net/2024/02/07/dWDPvUOxbjqgFaE.png
 {% endflink %}
 
 
@@ -198,6 +202,10 @@ cover: false
     link: https://dukou.icu/user/register?code=VEDL
     descr: Dukou
     avatar: https://dukou.icu/logo.ico
+  - name: Speeder
+    link: https://www.speeder.one/auth/register?code=pIGh
+    descr: Speeder
+    avatar: https://www.speeder.one/theme/malio/assets/img/stisla-fill.svg
 {% endflink%}
 
 
