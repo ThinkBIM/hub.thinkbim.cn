@@ -17,13 +17,13 @@ cover: false
 
 <!-- timeline Ⅱ -->
 
-[0218](/diary/2024/0218)
+[0218](/diary/2024/0218.html)
 
 <!-- endtimeline -->
 
 <!-- timeline Ⅰ -->
 
-[0109](/diary/2024/0109)
+[0109](/diary/2024/0109.html)
 
 <!-- endtimeline -->
 
@@ -31,14 +31,14 @@ cover: false
 
 {% timeline 2023,blue %}
 <!-- timeline Ⅻ -->
-[1221](/diary/2024/1221)
+[1221](/diary/2024/1221.html)
 <!-- endtimeline -->
 <!-- timeline Ⅰ -->
-[0109](/diary/2023/0109)
+[0109](/diary/2023/0109.html)
 
-[0111](/diary/2024/0111)
+[0111](/diary/2024/0111.html)
 
-[0112](/diary/2024/0112)
+[0112](/diary/2024/0112.html)
 
 <!-- endtimeline -->
 {% endtimeline %}
