@@ -2,135 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_index.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_performance.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/mysql_schema.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/oop.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/pan_search.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/php_newfeature.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/process.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/redis.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/redis_cluster.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/redis_docker.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/resume.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.thinkbim.cn/sketch.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -139,7 +13,7 @@
   <url>
     <loc>https://www.thinkbim.cn/telegram.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -148,7 +22,7 @@
   <url>
     <loc>https://www.thinkbim.cn/typora.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -157,7 +31,7 @@
   <url>
     <loc>https://www.thinkbim.cn/categories/index.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -166,7 +40,7 @@
   <url>
     <loc>https://www.thinkbim.cn/diary/index.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -175,7 +49,7 @@
   <url>
     <loc>https://www.thinkbim.cn/golang/index.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -184,7 +58,7 @@
   <url>
     <loc>https://www.thinkbim.cn/tags/index.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -193,7 +67,7 @@
   <url>
     <loc>https://www.thinkbim.cn/diary/2023/0109.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -202,7 +76,7 @@
   <url>
     <loc>https://www.thinkbim.cn/diary/2023/0111.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -211,16 +85,7 @@
   <url>
     <loc>https://www.thinkbim.cn/diary/2023/0112.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/diary/2024/0218.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -229,7 +94,16 @@
   <url>
     <loc>https://www.thinkbim.cn/diary/2024/0109.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/diary/2024/0218.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -238,7 +112,7 @@
   <url>
     <loc>https://www.thinkbim.cn/algorithm.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -247,7 +121,7 @@
   <url>
     <loc>https://www.thinkbim.cn/chrome.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -256,7 +130,7 @@
   <url>
     <loc>https://www.thinkbim.cn/docker_container.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -265,7 +139,7 @@
   <url>
     <loc>https://www.thinkbim.cn/docker_image.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -274,7 +148,7 @@
   <url>
     <loc>https://www.thinkbim.cn/docker_info.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -283,7 +157,7 @@
   <url>
     <loc>https://www.thinkbim.cn/english_tools.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -292,7 +166,7 @@
   <url>
     <loc>https://www.thinkbim.cn/ffmpeg.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -301,7 +175,7 @@
   <url>
     <loc>https://www.thinkbim.cn/final_cut.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -310,7 +184,7 @@
   <url>
     <loc>https://www.thinkbim.cn/git.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -319,7 +193,7 @@
   <url>
     <loc>https://www.thinkbim.cn/hexo-theme-aurora.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -328,7 +202,7 @@
   <url>
     <loc>https://www.thinkbim.cn/hexo-theme-butterfly.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -337,7 +211,7 @@
   <url>
     <loc>https://www.thinkbim.cn/hexo.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -346,7 +220,7 @@
   <url>
     <loc>https://www.thinkbim.cn/intelliJ.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -355,7 +229,7 @@
   <url>
     <loc>https://www.thinkbim.cn/interview.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -364,7 +238,7 @@
   <url>
     <loc>https://www.thinkbim.cn/interview_cache.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -373,7 +247,7 @@
   <url>
     <loc>https://www.thinkbim.cn/interview_mysql.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -382,7 +256,7 @@
   <url>
     <loc>https://www.thinkbim.cn/interview_oop.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -391,7 +265,7 @@
   <url>
     <loc>https://www.thinkbim.cn/interview_php.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -400,16 +274,7 @@
   <url>
     <loc>https://www.thinkbim.cn/interview_socket.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/liunx.html</loc>
-    
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -418,7 +283,16 @@
   <url>
     <loc>https://www.thinkbim.cn/liunx_cmd.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/liunx.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -427,7 +301,7 @@
   <url>
     <loc>https://www.thinkbim.cn/logrotate.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -436,7 +310,7 @@
   <url>
     <loc>https://www.thinkbim.cn/macos.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -445,7 +319,7 @@
   <url>
     <loc>https://www.thinkbim.cn/messi.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -454,7 +328,7 @@
   <url>
     <loc>https://www.thinkbim.cn/microservices_concept.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -463,7 +337,7 @@
   <url>
     <loc>https://www.thinkbim.cn/microsoft365_excel.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -472,7 +346,133 @@
   <url>
     <loc>https://www.thinkbim.cn/mysql.html</loc>
     
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_cluster.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_explain.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_performance.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_index.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/mysql_schema.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/oop.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/pan_search.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/php_newfeature.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/process.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/redis.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/redis_cluster.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/redis_docker.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/redis_persistent.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/resume.html</loc>
+    
+    <lastmod>2024-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -508,7 +508,7 @@
 
   <url>
     <loc>https://www.thinkbim.cn/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -516,308 +516,308 @@
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Algorihm/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Google/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Command/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Container/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Image/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/ffmpeg/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/PHP/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/FCPX/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Shortcuts/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Git/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Themes/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Hexo/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Aurora/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Butterfly/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/IDE/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Cache/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/MySQL/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/OOP/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Socket/</loc>
-    <lastmod>2024-02-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.thinkbim.cn/tags/F-Q/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Liunx/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thinkbim.cn/tags/F-Q/</loc>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Logrotate/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/%E6%A2%85%E8%A5%BF/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Excel/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/%E4%B8%BB%E4%BB%8E/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Docker/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/explain/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/%E7%B4%A2%E5%BC%95/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Link/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/PHP8/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/PHP7/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Process/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Thread/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Coroutine/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Redis/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Sentinel/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Cluster/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/docker-composer/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Sketch/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Telegram/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/tags/Typora/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -826,133 +826,133 @@
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Algorihm/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Google/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Docker/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/%E8%8B%B1%E8%AF%AD/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/PHP/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/%E5%89%AA%E8%BE%91/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Git/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Hexo/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Jetbrains/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Liunx/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Excel/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/MySQL/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/%E7%BD%91%E7%9B%98/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Redis/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/%E8%81%8C%E5%9C%BA/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Sketch/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Telegram/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.thinkbim.cn/categories/Typora/</loc>
-    <lastmod>2024-02-18</lastmod>
+    <lastmod>2024-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

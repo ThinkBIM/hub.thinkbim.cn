@@ -356,31 +356,6 @@
     
     
     <entry>
-      <title>面试技巧</title>
-      <link href="/resume.html"/>
-      <url>/resume.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="简历篇"><a href="#简历篇" class="headerlink" title="简历篇"></a>简历篇</h1><h2 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h2><ol><li>我是谁</li><li>为什么能够胜任工作？</li><li>我为什么想要这份工作？</li></ol><p>3分钟左右的自我介绍，可以自己每天对着镜子练习练习，表述清晰。（自信）<br>要结合这个工作的要求来讲，你为什么胜任这个工作，这点非常非常重要！（寻找契合点）</p><h2 id="投放平台"><a href="#投放平台" class="headerlink" title="投放平台"></a>投放平台</h2><ul><li><a href="https://www.zhipin.com/">BOSS直聘</a></li><li><a href="https://www.lagou.com/">拉钩</a></li><li><a href="https://www.zhaopin.com/">智联招聘</a></li><li><a href="https://www.51job.com/">前程无忧</a></li></ul><p>投放时间上午8:30-10:00；下午13:30-15:00；不要投递同一个公司，不要投递一个职位</p><p>了解公司 <a href="https://www.tianyancha.com/">天眼查</a></p><ul><li>分类<ol><li>IT服务</li><li>计算机软件</li><li>互联网</li></ol></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 职场 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 面试技巧 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Redis持久化二种方式详解（AOF、RDB）</title>
       <link href="/redis_persistent.html"/>
       <url>/redis_persistent.html</url>
@@ -398,6 +373,31 @@
         <tags>
             
             <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>面试技巧</title>
+      <link href="/resume.html"/>
+      <url>/resume.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="简历篇"><a href="#简历篇" class="headerlink" title="简历篇"></a>简历篇</h1><h2 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h2><ol><li>我是谁</li><li>为什么能够胜任工作？</li><li>我为什么想要这份工作？</li></ol><p>3分钟左右的自我介绍，可以自己每天对着镜子练习练习，表述清晰。（自信）<br>要结合这个工作的要求来讲，你为什么胜任这个工作，这点非常非常重要！（寻找契合点）</p><h2 id="投放平台"><a href="#投放平台" class="headerlink" title="投放平台"></a>投放平台</h2><ul><li><a href="https://www.zhipin.com/">BOSS直聘</a></li><li><a href="https://www.lagou.com/">拉钩</a></li><li><a href="https://www.zhaopin.com/">智联招聘</a></li><li><a href="https://www.51job.com/">前程无忧</a></li></ul><p>投放时间上午8:30-10:00；下午13:30-15:00；不要投递同一个公司，不要投递一个职位</p><p>了解公司 <a href="https://www.tianyancha.com/">天眼查</a></p><ul><li>分类<ol><li>IT服务</li><li>计算机软件</li><li>互联网</li></ol></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 职场 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 面试技巧 </tag>
             
         </tags>
       
@@ -919,9 +919,9 @@
       
         <tags>
             
-            <tag> F&amp;Q </tag>
-            
             <tag> Liunx </tag>
+            
+            <tag> F&amp;Q </tag>
             
         </tags>
       
