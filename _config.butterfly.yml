@@ -890,7 +890,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_vvvi6zojcop.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_jffpj16ggum.css">
   bottom:
     - <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
   # - <script src="xxxx"></script>
