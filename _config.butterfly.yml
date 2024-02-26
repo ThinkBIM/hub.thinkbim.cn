@@ -8,9 +8,9 @@ menu:
   书签: /bookmark/ || iconfont icon-shuqian
   日记: /diary/ || iconfont icon-riji
   日语||iconfont icon-riyu1-03:
-     元音: /japenese/basic || iconfont icon-riyu2
-     浊音: /japenese/consonant || iconfont icon-riyu2
-     发音: /japenese/emit || iconfont icon-riyu2
+     元音: /japenese/basic.html || iconfont icon-riyu2
+     浊音: /japenese/consonant.html || iconfont icon-riyu2
+     发音: /japenese/emit.html || iconfont icon-riyu2
 # Archives: /archives/ || fas fa-archive
 # Tags: /tags/ || fas fa-tags
 # Categories: /categories/ || fas fa-folder-open
