@@ -101,10 +101,10 @@ ignore:
 theme: butterfly
 
 # site Google Baidu
-sitemap:
-  path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
+#sitemap:
+#  path:
+#baidusitemap:
+#  path:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
