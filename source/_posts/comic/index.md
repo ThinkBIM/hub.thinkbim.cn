@@ -4,8 +4,15 @@ date: 2022-11-02
 updated: 2024-01-16
 description: 个人动漫推荐
 keywords: 动漫推荐|日漫|国漫
+categories:
+  - 动漫
+tags:
+  - 动漫
 top_img: https://kimetsu.com/anime/assets_portal/img/main/img_wt2024.jpg
 cover: false
+comments: true
+toc: true
+tochide: false
 ---
 
 对于动漫爱好者来说，最痛苦的是有好看的动漫自己却不知道。
