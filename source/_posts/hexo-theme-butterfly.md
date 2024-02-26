@@ -13,15 +13,14 @@ top_img: false
 cover: false
 ---
 
-基于Hexo框架开发，使用 [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) 主题。
+基于Hexo框架开发，使用 [^Butterfly] 主题。
 
 
 
 
-- [Hexo](https://hexo.io/) 框架
-- [hexo-theme-butterfly](https://butterfly.js.org/) 文档
-
-
+-   [^Hexo]  框架
+-   [^ hexo-theme-butterfly] 文档
+-  [^ Fluid] 写作说明
 
 ## 安装
 
@@ -100,5 +99,8 @@ hexo clean & hexo g & hexo server
 
 ## FAQ
 
-
+[^Fluid]: https://hexo.fluid-dev.com/about/
+[^Butterfly]: https://github.com/jerryc127/hexo-theme-butterfly
+[^Hexo]: https://hexo.io/
+[^hexo-theme-butterfly]: https://butterfly.js.org/
 

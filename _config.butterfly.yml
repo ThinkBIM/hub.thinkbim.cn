@@ -7,6 +7,10 @@ menu:
   软件: /software/ || iconfont icon-ruanjian-1
   书签: /bookmark/ || iconfont icon-shuqian
   日记: /diary/ || iconfont icon-riji
+  日语||iconfont icon-riyu1-03:
+     元音: /japenese/basic || iconfont icon-riyu2
+     浊音: /japenese/consonant || iconfont icon-riyu2
+     发音: /japenese/emit || iconfont icon-riyu2
 # Archives: /archives/ || fas fa-archive
 # Tags: /tags/ || fas fa-tags
 # Categories: /categories/ || fas fa-folder-open
@@ -890,7 +894,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_jffpj16ggum.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_tuzab0wi5ng.css">
   bottom:
     - <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
   # - <script src="xxxx"></script>

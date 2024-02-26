@@ -31,3 +31,15 @@ Microsoft Excel是Microsoft为使用Windows和Apple Macintosh操作系统的电�
 | 日期                     | {% label ⌃ %}{% label ; %}                                   | Y-m-d      |
 | 时间                     | {% label ⌘ %}{% label ; %}                                   | H:i:s      |
 
+
+
+**Mac Office 2021 关闭更新提示的方法**
+
+
+
+```
+sudo rm -rf /Library/Application Support/Microsoft/MAU2.0/
+```
+
+
+
