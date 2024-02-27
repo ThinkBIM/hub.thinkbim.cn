@@ -139,12 +139,12 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: #/img/friend_404.gif
+  post_page:  #/img/404.jpg
 
 # A simple 404 page
 error_404:
-  enable: true
+  enable: false
   subtitle: 'Page Not Found'
   background: https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/404.jpg
 
@@ -193,7 +193,7 @@ anchor:
 # toc (目錄)
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: false
   style_simple: false # for post
@@ -301,7 +301,7 @@ disqusjs:
 # livere (來必力)
 # https://www.livere.com/
 livere:
-  uid: MTAyMC81OTMzMi8zNTc5NA==
+  uid:
 
 # gitalk
 # https://github.com/gitalk/gitalk
