@@ -5,7 +5,7 @@
 # Site
 title: ThinkBIM
 subtitle: ''
-description: ''
+description: 'ThinkBIM'
 keywords: thinkbim|分享|常用命令|书签|动漫|总结|Mac软件
 author: ThinkBIM
 language: zh-CN
@@ -117,7 +117,7 @@ readmore:
   enable: false
   blogId: '03022-9869435173287-243'
   name: 'ThinkBIM'
-  keyword: 'RICH'
+  keyword: ''
   qrcode: 'https://s2.loli.net/2023/04/13/DjsQTEOSHkanz63.jpg'
   height: 'auto'
   expires: 90
