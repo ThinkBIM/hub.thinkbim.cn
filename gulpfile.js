@@ -1,52 +1,45 @@
-//用到的各个插件
+// 引入需要的模块
 var gulp = require('gulp');
-var cleanCSS = require('gulp-clean-css');
-var htmlmin = require('gulp-html-minifier-terser');
+var minifycss = require('gulp-clean-css');
+var uglify = require('gulp-uglify');
+var htmlmin = require('gulp-htmlmin');
 var htmlclean = require('gulp-htmlclean');
-var uglify = require('gulp-uglify')
-var babel = require('gulp-babel')
-//压缩js
-gulp.task('compress', () =>
-  gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
-    .pipe(babel({
-      presets: ['@babel/preset-env']
-    }))
-    .pipe(uglify().on('error', function (e) {
-      console.log(e)
-    }))
-    .pipe(gulp.dest('./public'))
-)
-//压缩css
-gulp.task('minify-css', () => {
-    return gulp.src(['./public/**/*.css'])
-        .pipe(cleanCSS({
-            compatibility: 'ie11'
+
+// 压缩public目录下所有html文件, minify-html是任务名, 设置为default，启动gulp压缩的时候可以省去任务名
+gulp.task('minify-html', function() {
+    return gulp.src('./public/**/*.html') // 压缩文件所在的目录
+        .pipe(htmlclean())
+        .pipe(htmlmin({
+            removeComments: true,
+            minifyJS: true,
+            minifyCSS: true,
+            minifyURLs: true,
+        }))
+        .pipe(gulp.dest('./public')) // 输出的目录
+});
+
+// 压缩css
+gulp.task('minify-css', function() {
+    return gulp.src('./public/**/*.css')
+        .pipe(minifycss({
+            compatibility: 'ie8'
         }))
         .pipe(gulp.dest('./public'));
 });
-//压缩html
-gulp.task('minify-html', () => {
-    return gulp.src('./public/**/*.html')
-        .pipe(htmlclean())
-        .pipe(htmlmin({
-            removeComments: true, //清除html注释
-            collapseWhitespace: true, //压缩html
-            collapseBooleanAttributes: true,
-            //省略布尔属性的值，例如：<input checked="true"/> ==> <input />
-            removeEmptyAttributes: true,
-            //删除所有空格作属性值，例如：<input id="" /> ==> <input />
-            removeScriptTypeAttributes: true,
-            //删除<script>的type="text/javascript"
-            removeStyleLinkTypeAttributes: true,
-            //删除<style>和<link>的 type="text/css"
-            minifyJS: true, //压缩页面 JS
-            minifyCSS: true, //压缩页面 CSS
-            minifyURLs: true  //压缩页面URL
-        }))
-        .pipe(gulp.dest('./public'))
+// 压缩js
+gulp.task('minify-js', function() {
+    return gulp.src(['./public/**/.js','!./public/js/**/*min.js'])
+        .pipe(uglify())
+        .pipe(gulp.dest('./public'));
 });
 
-// 运行gulp命令时依次执行以下任务
-gulp.task('default', gulp.parallel(
-  'compress', 'minify-css', 'minify-html'
-))
+// 默认任务
+/*
+gulp.task('default', [
+    'minify-html','minify-html1','minify-css','minify-js','minify-images'
+]);
+*/
+// gulp 4.0 适用的方式
+gulp.task('default', gulp.parallel('minify-html','minify-css','minify-js'
+ //build the website
+));
