@@ -120,7 +120,7 @@ tochide: false
     descr: LIBVIO影视
     avatar: https://xiaoxiaojia.oss-cn-shanghai.aliyuncs.com/statics/img/favicon.ico
   - name: Netflix奈飞网
-    link: https://yanetflix.me/
+    link: https://www.netflixgc.com/
     descr: Netflix奈飞网|免费电视电影网站|在线免费电影-奈飞中文网
     avatar: https://assets.nflxext.com/en_us/layout/ecweb/netflix-app-icon_152.jpg
   - name: 独播库

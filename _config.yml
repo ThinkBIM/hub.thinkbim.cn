@@ -123,3 +123,13 @@ readmore:
   expires: 90
   interval: 60
   random: 1
+
+hide_posts:
+  # 是否启用 hexo-hide-posts
+  enable: true
+
+  # 隐藏文章的 front-matter 标识，也可以改成其他你喜欢的名字
+  filter: hidden
+
+  # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+  noindex: true
