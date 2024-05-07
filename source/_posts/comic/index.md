@@ -31,13 +31,15 @@ tochide: false
 
 ## 观影记录
 > 有我的陪伴，你觉得会孤单吗？和我一起看哇！！
-- 
-- 怪物转生 `4`
+- 防风少年 `3`
+- 夜晚的水母不会游泳`3`
+- 怪兽8号`4`
+- 怪物转生 `5`
 - 不死不幸`19`
 - 月光下的异世界之旅II `1`
 - 打工吧！魔王大人 第二季 `5`
 - 海贼王 `1095`
-- 完美世界 `159`
+- 完美世界 `161`
 - 吞噬星空 `52`
 - 妖神记 `267`
 - 忍者一时 `2`
@@ -176,5 +178,5 @@ tochide: false
 - [影巢](https://www.hdhive.org/)
 - [ACG盒子](https://www.acgbox.link/)
 - [你的动漫](https://youranimes.tw/)
-- [排行榜](https://www.agemys.net/rank)
+- [排行榜](https://www.agedm.org/rank)
 - [日漫新番表](https://acgsecrets.hk/bangumi)
