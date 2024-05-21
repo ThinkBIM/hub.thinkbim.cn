@@ -116,7 +116,7 @@ tochide: false
   class_desc:
   link_list:
   - name: 88电影网
-    link: https://www.88hd.org/
+    link: https://88ys.xyz/
     descr: 88影视网每天搜集互联网最新电影和电视剧，为广大用户免费提供无广告在线观看电影和电视剧服务，及时收录最新、最热、最全的电影大片,高清正版免费看。
     avatar: https://www.88hd.org/favicon.ico
   - name: 大米星球
@@ -124,7 +124,7 @@ tochide: false
     descr: 大米星球_最新Netflix新剧_韩国电影免费在线观看
     avatar: https://f746f90.ynajax.com/storage/images/2023-11-15/41/0e291f49fda6dd47fb1e8c158ca26bf3.webp
   - name: LIBVIO影视
-    link: https://www.libvio.pro/
+    link: https://www.libvio.vip/
     descr: LIBVIO影视
     avatar: https://xiaoxiaojia.oss-cn-shanghai.aliyuncs.com/statics/img/favicon.ico
   - name: Netflix奈飞网
