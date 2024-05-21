@@ -57,7 +57,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-05-21 13:11:27'
+  postUpdate: '2024-05-21 13:16:42'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -422,7 +422,7 @@ Shift
 翻译工具@DeepL
 资料下载@wanerfu基础语法、16种时态、口语英语资料PDF下载可直接打印，无水印
 </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/interview_php.html" title="PHP面试题汇总">PHP面试题汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-18T00:00:00.000Z" title="发表于 2023-04-18 00:00:00">2023-04-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/">面试题</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/PHP/">PHP</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">面试题</a></span></div><div class="content">PHPRabbitMQ 基于AMQP协议的消息中间件如何确保消息正确地发送至RabbitMQ？RabbitMQ使用发送方确认模式，确保消息正确地发送到RabbitMQ。发送方确认模式：将信道设置成confirm模式（发送方确认模式），则所有在信道上发布的消息都会被指派一个唯一的ID。一旦消息被投递到目的队列后，或者消息被写入磁盘后（可持久化的消息），信道会发送一个确认给生产者（包含消息唯一ID）。如果RabbitMQ发生内部错误从而导致消息丢失，会发送一条nack（not acknowledged，未确认）消息。发送方确认模式是异步的，生产者应用程序在等待确认的同时，可以继续发送消息。当确认消息到达生产者应用程序，生产者应用程序的回调方法就会被触发来处理确认消息。
-如何确保消息接收方消费了消息？接收方消息确认机制：消费者接收每一条消息后都必须进行确认（消息接收和消息确认是两个不同操作）。只有消费者确认了消息，RabbitMQ才能安全地把消息从队列中删除。这里并没有用到超时机制，RabbitMQ仅通过Consumer的连接中断来确认是否需要重新发送消息。也就是说，只要连接不中断，Rabb ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/bookmark/index.html" title="个人书签（持续更新中...）">个人书签（持续更新中...）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-12T00:00:00.000Z" title="发表于 2023-04-12 00:00:00">2023-04-12</time></span></div><div class="content">下面是个人常用工具、动漫观看地址、学习、应用等相关分享。相关内容持续更新，也欢迎大家积极留言投稿，相互学习。投稿邮箱：&#116;&#104;&#x69;&#x6e;&#x6b;&#98;&#x69;&#x6d;&#x40;&#x74;&#x68;&#105;&#110;&#x6b;&#x62;&#105;&#109;&#x2e;&#x63;&#x6e;
+如何确保消息接收方消费了消息？接收方消息确认机制：消费者接收每一条消息后都必须进行确认（消息接收和消息确认是两个不同操作）。只有消费者确认了消息，RabbitMQ才能安全地把消息从队列中删除。这里并没有用到超时机制，RabbitMQ仅通过Consumer的连接中断来确认是否需要重新发送消息。也就是说，只要连接不中断，Rabb ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/bookmark/index.html" title="个人书签（持续更新中...）">个人书签（持续更新中...）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-12T00:00:00.000Z" title="发表于 2023-04-12 00:00:00">2023-04-12</time></span></div><div class="content">下面是个人常用工具、动漫观看地址、学习、应用等相关分享。相关内容持续更新，也欢迎大家积极留言投稿，相互学习。投稿邮箱：&#116;&#x68;&#x69;&#110;&#107;&#98;&#x69;&#x6d;&#x40;&#116;&#x68;&#105;&#x6e;&#x6b;&#98;&#x69;&#109;&#46;&#99;&#110;
 工具好用的用户分享 
           
             
@@ -443,7 +443,98 @@ Shift
             
           
           
-  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/japenese/consonant.html" title="日语（浊音&amp;半浊音&amp;拗音）">日语（浊音&amp;半浊音&amp;拗音）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-12T00:00:00.000Z" title="发表于 2023-04-12 00:00:00">2023-04-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%97%A5%E8%AF%AD/">日语</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%97%A5%E8%AF%AD/">日语</a></span></div><div class="content">浊音平假名
+     ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/japenese/basic.html" title="日语五十音（元音&amp;辅音）">日语五十音（元音&amp;辅音）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-12T00:00:00.000Z" title="发表于 2023-04-12 00:00:00">2023-04-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%97%A5%E8%AF%AD/">日语</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%97%A5%E8%AF%AD/">日语</a></span></div><div class="content">日语五十音图可以被划分成 10 行 5 段，其中第一行就是这五个元音，它们分别是：「あ」「い」「う」「え」「お」。每一行都用该行第一个假名来命名，比如第一行就叫做「あ行」。而每一段，都用该段的第一个假名来命名，所以五段分别为：「あ段」，「い段」，「う段」，「え段」，「お段」。
+日语发音特点口型小、唇形扁
+假名平假名&amp;罗马字对应
+
+
+五十音图
+あ段
+い段
+う段
+え段
+お段
+
+
+
+あ行
+あ a
+い i
+う u
+え e[ai]
+お o
+
+
+か行
+か ka
+き ki
+く ku
+け ke
+こ ko
+
+
+さ行
+さ sa
+し shi[x]
+す su
+せ se
+そ so
+
+
+た行
+た ta
+ち chi[q]
+つ tsu[ci]
+て te
+と to
+
+
+な行
+な na
+に ni
+ぬ nu
+ね ne
+の no
+
+
+は行
+は ha
+ひ hi
+ふ hu
+へ he
+ほ ho
+
+
+ま行
+ま ma
+み mi
+む mu
+め me
+も mo
+
+
+や行
+や ya
+
+ふ yu
+
+よ yo
+
+
+ら行
+ら ra[la]
+り ri[li]
+る ru[lu]
+れ re[le]
+ろ ro[lo]
+
+
+わ行
+わ wa
+
+
+
+を ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/japenese/consonant.html" title="日语（浊音&amp;半浊音&amp;拗音）">日语（浊音&amp;半浊音&amp;拗音）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-12T00:00:00.000Z" title="发表于 2023-04-12 00:00:00">2023-04-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%97%A5%E8%AF%AD/">日语</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%97%A5%E8%AF%AD/">日语</a></span></div><div class="content">浊音平假名
 
 
 浊音图
@@ -571,98 +662,7 @@ Shift
 ぴょ pyo
 
 
-片假名</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/japenese/basic.html" title="日语五十音（元音&amp;辅音）">日语五十音（元音&amp;辅音）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-12T00:00:00.000Z" title="发表于 2023-04-12 00:00:00">2023-04-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%97%A5%E8%AF%AD/">日语</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%97%A5%E8%AF%AD/">日语</a></span></div><div class="content">日语五十音图可以被划分成 10 行 5 段，其中第一行就是这五个元音，它们分别是：「あ」「い」「う」「え」「お」。每一行都用该行第一个假名来命名，比如第一行就叫做「あ行」。而每一段，都用该段的第一个假名来命名，所以五段分别为：「あ段」，「い段」，「う段」，「え段」，「お段」。
-日语发音特点口型小、唇形扁
-假名平假名&amp;罗马字对应
-
-
-五十音图
-あ段
-い段
-う段
-え段
-お段
-
-
-
-あ行
-あ a
-い i
-う u
-え e[ai]
-お o
-
-
-か行
-か ka
-き ki
-く ku
-け ke
-こ ko
-
-
-さ行
-さ sa
-し shi[x]
-す su
-せ se
-そ so
-
-
-た行
-た ta
-ち chi[q]
-つ tsu[ci]
-て te
-と to
-
-
-な行
-な na
-に ni
-ぬ nu
-ね ne
-の no
-
-
-は行
-は ha
-ひ hi
-ふ hu
-へ he
-ほ ho
-
-
-ま行
-ま ma
-み mi
-む mu
-め me
-も mo
-
-
-や行
-や ya
-
-ふ yu
-
-よ yo
-
-
-ら行
-ら ra[la]
-り ri[li]
-る ru[lu]
-れ re[le]
-ろ ro[lo]
-
-
-わ行
-わ wa
-
-
-
-を ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/japenese/emit.html" title="日语（发音）">日语（发音）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-12T00:00:00.000Z" title="发表于 2023-04-12 00:00:00">2023-04-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%97%A5%E8%AF%AD/">日语</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%97%A5%E8%AF%AD/">日语</a></span></div><div class="content">长音平假名
+片假名</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/japenese/emit.html" title="日语（发音）">日语（发音）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-12T00:00:00.000Z" title="发表于 2023-04-12 00:00:00">2023-04-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%97%A5%E8%AF%AD/">日语</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%97%A5%E8%AF%AD/">日语</a></span></div><div class="content">长音平假名
 
 
 段
@@ -728,7 +728,7 @@ IINA
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Algorihm/"><span class="card-category-list-name">Algorihm</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Docker/"><span class="card-category-list-name">Docker</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Excel/"><span class="card-category-list-name">Excel</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Git/"><span class="card-category-list-name">Git</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Google/"><span class="card-category-list-name">Google</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Hexo/"><span class="card-category-list-name">Hexo</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Jetbrains/"><span class="card-category-list-name">Jetbrains</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Liunx/"><span class="card-category-list-name">Liunx</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Mac%E8%BD%AF%E4%BB%B6/"><span class="card-category-list-name">Mac软件</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/MySQL/"><span class="card-category-list-name">MySQL</span><span class="card-category-list-count">8</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/PHP/"><span class="card-category-list-name">PHP</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/PhpStorm/"><span class="card-category-list-name">PhpStorm</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Redis/"><span class="card-category-list-name">Redis</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/SQl-Server/"><span class="card-category-list-name">SQl Server</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Sketch/"><span class="card-category-list-name">Sketch</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Telegram/"><span class="card-category-list-name">Telegram</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Typora/"><span class="card-category-list-name">Typora</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%89%AA%E8%BE%91/"><span class="card-category-list-name">剪辑</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%8A%A8%E6%BC%AB/"><span class="card-category-list-name">动漫</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%97%A5%E8%AF%AD/"><span class="card-category-list-name">日语</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%86%94%E5%8C%96%E7%84%8A%E6%8E%A5%E4%B8%8E%E7%83%AD%E5%88%87%E5%89%B2%E4%BD%9C%E4%B8%9A/"><span class="card-category-list-name">熔化焊接与热切割作业</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BD%91%E7%9B%98/"><span class="card-category-list-name">网盘</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%81%8C%E5%9C%BA/"><span class="card-category-list-name">职场</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%8B%B1%E8%AF%AD/"><span class="card-category-list-name">英语</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB/"><span class="card-category-list-name">记录生活</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"><span class="card-category-list-name">面试题</span><span class="card-category-list-count">6</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Algorihm/" style="font-size: 1.15em; color: rgb(13, 163, 193)">Algorihm</a><a href="/tags/Command/" style="font-size: 1.39em; color: rgb(25, 151, 42)">Command</a><a href="/tags/Container/" style="font-size: 1.15em; color: rgb(28, 160, 39)">Container</a><a href="/tags/Image/" style="font-size: 1.15em; color: rgb(136, 136, 140)">Image</a><a href="/tags/Google/" style="font-size: 1.15em; color: rgb(167, 60, 190)">Google</a><a href="/tags/ffmpeg/" style="font-size: 1.15em; color: rgb(81, 118, 194)">ffmpeg</a><a href="/tags/PHP/" style="font-size: 1.21em; color: rgb(91, 187, 175)">PHP</a><a href="/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 1.15em; color: rgb(22, 183, 156)">学习</a><a href="/tags/Git/" style="font-size: 1.15em; color: rgb(117, 14, 187)">Git</a><a href="/tags/FCPX/" style="font-size: 1.15em; color: rgb(104, 144, 52)">FCPX</a><a href="/tags/Shortcuts/" style="font-size: 1.39em; color: rgb(140, 31, 62)">Shortcuts</a><a href="/tags/Themes/" style="font-size: 1.27em; color: rgb(98, 167, 145)">Themes</a><a href="/tags/Hexo/" style="font-size: 1.27em; color: rgb(185, 132, 66)">Hexo</a><a href="/tags/Aurora/" style="font-size: 1.15em; color: rgb(86, 121, 63)">Aurora</a><a href="/tags/Butterfly/" style="font-size: 1.15em; color: rgb(87, 58, 95)">Butterfly</a><a href="/tags/IDE/" style="font-size: 1.15em; color: rgb(148, 131, 120)">IDE</a><a href="/tags/Cache/" style="font-size: 1.21em; color: rgb(104, 63, 48)">Cache</a><a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 1.39em; color: rgb(33, 68, 67)">面试题</a><a href="/tags/MySQL/" style="font-size: 1.45em; color: rgb(40, 74, 12)">MySQL</a><a href="/tags/OOP/" style="font-size: 1.21em; color: rgb(71, 13, 154)">OOP</a><a href="/tags/F-Q/" style="font-size: 1.27em; color: rgb(126, 120, 49)">F&Q</a><a href="/tags/Liunx/" style="font-size: 1.33em; color: rgb(102, 186, 163)">Liunx</a><a href="/tags/Socket/" style="font-size: 1.15em; color: rgb(123, 159, 43)">Socket</a><a href="/tags/Logrotate/" style="font-size: 1.15em; color: rgb(25, 40, 166)">Logrotate</a><a href="/tags/%E6%A2%85%E8%A5%BF/" style="font-size: 1.15em; color: rgb(153, 18, 116)">梅西</a><a href="/tags/Excel/" style="font-size: 1.15em; color: rgb(137, 115, 190)">Excel</a><a href="/tags/%E4%B8%BB%E4%BB%8E/" style="font-size: 1.15em; color: rgb(35, 93, 96)">主从</a><a href="/tags/Docker/" style="font-size: 1.27em; color: rgb(153, 17, 103)">Docker</a><a href="/tags/explain/" style="font-size: 1.15em; color: rgb(136, 192, 33)">explain</a><a href="/tags/%E7%B4%A2%E5%BC%95/" style="font-size: 1.15em; color: rgb(17, 118, 29)">索引</a><a href="/tags/Link/" style="font-size: 1.15em; color: rgb(127, 70, 134)">Link</a><a href="/tags/PhpStorm/" style="font-size: 1.15em; color: rgb(131, 42, 4)">PhpStorm</a><a href="/tags/PHP8/" style="font-size: 1.15em; color: rgb(134, 172, 46)">PHP8</a><a href="/tags/PHP7/" style="font-size: 1.15em; color: rgb(111, 147, 84)">PHP7</a><a href="/tags/Process/" style="font-size: 1.15em; color: rgb(110, 79, 22)">Process</a><a href="/tags/Thread/" style="font-size: 1.15em; color: rgb(163, 81, 187)">Thread</a><a href="/tags/Coroutine/" style="font-size: 1.15em; color: rgb(192, 133, 3)">Coroutine</a><a href="/tags/Redis/" style="font-size: 1.39em; color: rgb(56, 10, 143)">Redis</a><a href="/tags/docker-composer/" style="font-size: 1.15em; color: rgb(143, 120, 7)">docker-composer</a><a href="/tags/Sentinel/" style="font-size: 1.15em; color: rgb(46, 83, 133)">Sentinel</a><a href="/tags/Cluster/" style="font-size: 1.15em; color: rgb(117, 45, 8)">Cluster</a><a href="/tags/Sketch/" style="font-size: 1.15em; color: rgb(78, 2, 106)">Sketch</a><a href="/tags/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/" style="font-size: 1.15em; color: rgb(56, 1, 187)">面试技巧</a><a href="/tags/%E7%86%94%E5%8C%96%E7%84%8A%E6%8E%A5%E4%B8%8E%E7%83%AD%E5%88%87%E5%89%B2%E4%BD%9C%E4%B8%9A/" style="font-size: 1.15em; color: rgb(7, 35, 29)">熔化焊接与热切割作业</a><a href="/tags/Telegram/" style="font-size: 1.15em; color: rgb(0, 134, 183)">Telegram</a><a href="/tags/SQl-Server/" style="font-size: 1.15em; color: rgb(74, 26, 79)">SQl Server</a><a href="/tags/Typora/" style="font-size: 1.15em; color: rgb(168, 69, 42)">Typora</a><a href="/tags/%E5%8A%A8%E6%BC%AB/" style="font-size: 1.15em; color: rgb(48, 178, 61)">动漫</a><a href="/tags/%E6%97%A5%E8%AF%AD/" style="font-size: 1.27em; color: rgb(186, 131, 105)">日语</a><a href="/tags/Mac%E8%BD%AF%E4%BB%B6/" style="font-size: 1.15em; color: rgb(27, 98, 69)">Mac软件</a><a href="/tags/%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB/" style="font-size: 1.33em; color: rgb(175, 96, 28)">记录生活</a></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2024 By ThinkBIM</div><div class="footer_custom_text"><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024041189号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><div class="js-pjax"><script>window.typedJSFn = {
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Algorihm/" style="font-size: 1.15em; color: rgb(54, 33, 54)">Algorihm</a><a href="/tags/Command/" style="font-size: 1.39em; color: rgb(49, 58, 95)">Command</a><a href="/tags/Container/" style="font-size: 1.15em; color: rgb(0, 123, 129)">Container</a><a href="/tags/Google/" style="font-size: 1.15em; color: rgb(195, 94, 44)">Google</a><a href="/tags/Image/" style="font-size: 1.15em; color: rgb(138, 139, 10)">Image</a><a href="/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 1.15em; color: rgb(111, 5, 170)">学习</a><a href="/tags/ffmpeg/" style="font-size: 1.15em; color: rgb(114, 178, 125)">ffmpeg</a><a href="/tags/PHP/" style="font-size: 1.21em; color: rgb(19, 46, 147)">PHP</a><a href="/tags/FCPX/" style="font-size: 1.15em; color: rgb(151, 132, 188)">FCPX</a><a href="/tags/Shortcuts/" style="font-size: 1.39em; color: rgb(158, 81, 194)">Shortcuts</a><a href="/tags/Git/" style="font-size: 1.15em; color: rgb(86, 12, 48)">Git</a><a href="/tags/Themes/" style="font-size: 1.27em; color: rgb(20, 85, 173)">Themes</a><a href="/tags/Butterfly/" style="font-size: 1.15em; color: rgb(32, 38, 161)">Butterfly</a><a href="/tags/Hexo/" style="font-size: 1.27em; color: rgb(58, 72, 165)">Hexo</a><a href="/tags/Aurora/" style="font-size: 1.15em; color: rgb(22, 19, 7)">Aurora</a><a href="/tags/IDE/" style="font-size: 1.15em; color: rgb(130, 154, 167)">IDE</a><a href="/tags/Cache/" style="font-size: 1.21em; color: rgb(154, 155, 7)">Cache</a><a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 1.39em; color: rgb(77, 16, 165)">面试题</a><a href="/tags/MySQL/" style="font-size: 1.45em; color: rgb(145, 2, 156)">MySQL</a><a href="/tags/OOP/" style="font-size: 1.21em; color: rgb(60, 78, 38)">OOP</a><a href="/tags/Socket/" style="font-size: 1.15em; color: rgb(12, 29, 185)">Socket</a><a href="/tags/F-Q/" style="font-size: 1.27em; color: rgb(95, 118, 19)">F&Q</a><a href="/tags/Liunx/" style="font-size: 1.33em; color: rgb(8, 77, 180)">Liunx</a><a href="/tags/Logrotate/" style="font-size: 1.15em; color: rgb(32, 13, 142)">Logrotate</a><a href="/tags/%E6%A2%85%E8%A5%BF/" style="font-size: 1.15em; color: rgb(17, 169, 193)">梅西</a><a href="/tags/Excel/" style="font-size: 1.15em; color: rgb(1, 86, 167)">Excel</a><a href="/tags/explain/" style="font-size: 1.15em; color: rgb(166, 24, 119)">explain</a><a href="/tags/%E4%B8%BB%E4%BB%8E/" style="font-size: 1.15em; color: rgb(177, 36, 124)">主从</a><a href="/tags/Docker/" style="font-size: 1.27em; color: rgb(138, 191, 49)">Docker</a><a href="/tags/%E7%B4%A2%E5%BC%95/" style="font-size: 1.15em; color: rgb(189, 13, 64)">索引</a><a href="/tags/Link/" style="font-size: 1.15em; color: rgb(18, 86, 101)">Link</a><a href="/tags/PHP8/" style="font-size: 1.15em; color: rgb(35, 140, 37)">PHP8</a><a href="/tags/PHP7/" style="font-size: 1.15em; color: rgb(16, 155, 130)">PHP7</a><a href="/tags/PhpStorm/" style="font-size: 1.15em; color: rgb(106, 51, 123)">PhpStorm</a><a href="/tags/Redis/" style="font-size: 1.39em; color: rgb(70, 192, 21)">Redis</a><a href="/tags/Process/" style="font-size: 1.15em; color: rgb(69, 65, 30)">Process</a><a href="/tags/Thread/" style="font-size: 1.15em; color: rgb(172, 42, 139)">Thread</a><a href="/tags/Coroutine/" style="font-size: 1.15em; color: rgb(138, 124, 190)">Coroutine</a><a href="/tags/Sentinel/" style="font-size: 1.15em; color: rgb(31, 47, 29)">Sentinel</a><a href="/tags/Cluster/" style="font-size: 1.15em; color: rgb(120, 54, 184)">Cluster</a><a href="/tags/docker-composer/" style="font-size: 1.15em; color: rgb(162, 165, 143)">docker-composer</a><a href="/tags/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/" style="font-size: 1.15em; color: rgb(61, 86, 168)">面试技巧</a><a href="/tags/Sketch/" style="font-size: 1.15em; color: rgb(136, 41, 137)">Sketch</a><a href="/tags/%E7%86%94%E5%8C%96%E7%84%8A%E6%8E%A5%E4%B8%8E%E7%83%AD%E5%88%87%E5%89%B2%E4%BD%9C%E4%B8%9A/" style="font-size: 1.15em; color: rgb(25, 153, 110)">熔化焊接与热切割作业</a><a href="/tags/Typora/" style="font-size: 1.15em; color: rgb(125, 177, 25)">Typora</a><a href="/tags/Telegram/" style="font-size: 1.15em; color: rgb(122, 50, 65)">Telegram</a><a href="/tags/SQl-Server/" style="font-size: 1.15em; color: rgb(181, 91, 175)">SQl Server</a><a href="/tags/%E5%8A%A8%E6%BC%AB/" style="font-size: 1.15em; color: rgb(155, 130, 62)">动漫</a><a href="/tags/%E6%97%A5%E8%AF%AD/" style="font-size: 1.27em; color: rgb(143, 199, 36)">日语</a><a href="/tags/Mac%E8%BD%AF%E4%BB%B6/" style="font-size: 1.15em; color: rgb(73, 43, 99)">Mac软件</a><a href="/tags/%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB/" style="font-size: 1.33em; color: rgb(66, 183, 35)">记录生活</a></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2024 By ThinkBIM</div><div class="footer_custom_text"><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024041189号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><div class="js-pjax"><script>window.typedJSFn = {
   init: (str) => {
     window.typed = new Typed('#subtitle', Object.assign({
       strings: str,
