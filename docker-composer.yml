@@ -1,0 +1,15 @@
+version: "3"
+services:
+  nginx:
+    restart: always
+    container_name: nginx
+    image: nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /opt/webroot/hub.thinkbim.cn:/usr/share/nginx/html/hub.thinkbim.cn
+      - /opt/server/thinkbim_nginx/logs:/var/log/nginx
+      - /opt/server/thinkbim_nginx/cert:/etc/nginx/cert
+      - /opt/server/thinkbim_nginx/conf.d:/etc/nginx/conf.d
