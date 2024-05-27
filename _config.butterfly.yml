@@ -4,7 +4,9 @@
 
 menu:
   动漫: /comic/ || iconfont icon-dongman
-  软件: /software/ || iconfont icon-ruanjian-1
+  软件||iconfont icon-ruanjian-1:
+     Mac: /software/mac.html || iconfont icon-mac
+     Windows: /software/windows.html || iconfont icon-windows
   书签: /bookmark/ || iconfont icon-shuqian
   日语||iconfont icon-riyu1-03:
      元音: /japenese/basic.html || iconfont icon-riyu2
@@ -893,7 +895,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_tuzab0wi5ng.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_r7c6a7urqq.css">
   bottom:
     - <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
   # - <script src="xxxx"></script>

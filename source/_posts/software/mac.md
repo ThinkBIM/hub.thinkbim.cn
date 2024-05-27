@@ -5,9 +5,9 @@ updated: 2024-02-01
 description: Mac软件
 keywords: Mac软件
 categories:
-  - Mac软件
+  - Mac
 tags:
-  - Mac软件
+  - Mac
 top_img: false
 cover: false
 comments: true
@@ -34,7 +34,6 @@ tochide: false
 [Final Cut Pro](https://www.apple.com.cn/final-cut-pro/)
 
 [Motion](https://www.apple.com.cn/final-cut-pro/motion/)
-
 [Downie 4](https://software.charliemonroe.net/downie/)
 
 [BuhoNTFS](https://www.drbuho.com/zh-tw/buhontfs)
@@ -45,25 +44,29 @@ tochide: false
 
 [Another Desktop Manager](https://apps.apple.com/cn/app/another-desktop-manager/id1516451072?mt=12)
 
+[imFile](https://imfile.io/)
+
 
 
 ### 开发
 
-MAMP PRO
+[MAMP PRO](https://www.mamp.info/en/mac/)
 
-FileZilla
+[FileZilla](https://www.filezilla.cn/)
 
-IntelliJ IDEA
+[IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-Navicat Premium
+[Navicat Premium](https://www.navicat.com.cn/)
 
-SwitchHosts
+[SwitchHosts](https://switchhosts.vercel.app/zh)
 
-TinyPNG4Mac
+[TinyPNG4Mac](https://tinypng.com/)
 
-Termius
+[Termius](https://termius.com/)
 
-Docker
+[Docker](https://www.docker.com/)
+
+[PhpWebStudy](https://www.macphpstudy.com/)
 
 
 

@@ -67,6 +67,29 @@ tochide: false
     avatar: https://s2.loli.net/2024/02/07/dWDPvUOxbjqgFaE.png
 {% endflink %}
 
+## 音乐
+{% flink %}
+- class_name:
+  class_desc: 音乐下载
+  link_list:
+  - name : Free MP3 Download
+    link: https://mp3-juices.nu/ajdO/
+    descr: 音乐下载
+    avatar: https://free-mp3-download.net/img/icon_48.png
+  - name: IObit Uninstaller 13 Free
+    link: https://www.iobit.com/en/advanceduninstaller.php
+    descr: 下载 IObit Uninstaller 13 免费 - 100% 免费卸载程序和插件
+    avatar: https://s2.loli.net/2024/02/07/dWDPvUOxbjqgFaE.png
+  - name: 文字转语音
+    link: https://www.text-to-speech.online/
+    descr: 使用微软AI语音
+    avatar: https://s2.loli.net/2024/02/07/dWDPvUOxbjqgFaE.png
+  - name: 文字转语音
+    link: http://www.ttsonline.cn/
+    descr: 功能更加强大的文字转语音，支持多音字等
+    avatar: https://s2.loli.net/2024/02/07/dWDPvUOxbjqgFaE.png
+{% endflink %}
+
 ## 动漫
 
 {% flink %}
