@@ -45,3 +45,5 @@ Sketch 是一款Mac上小巧但功能强大的矢量设计绘图软件，这是�
 
 ## 画板
 
+
+[sketch](https://hotkeycheatsheet.com/zh/hotkey-cheatsheet/sketch)

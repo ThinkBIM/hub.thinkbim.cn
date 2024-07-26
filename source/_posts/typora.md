@@ -53,3 +53,6 @@ cover: false
 | 长按    | {% label ⌘ blue %}                                   | 背景加深代表长按 |
 | 回车    | {% label ⏎ %}                                        |                  |
 | 方向    | {% label ↑ %}{% label ↓ %}{% label ← %}{% label → %} |                  |
+
+
+[typora](https://hotkeycheatsheet.com/zh/hotkey-cheatsheet/typora)
