@@ -56,3 +56,22 @@ cover: false
 
 
 [typora](https://hotkeycheatsheet.com/zh/hotkey-cheatsheet/typora)
+
+https://hazurewaku-anime.com/wp/wp-content/uploads/2024/04/seras.png
+https://hazurewaku-anime.com/wp/wp-content/uploads/2024/04/vicius.png
+
+
+https://ichigoproduction.com/core_sys/images/contents/00000004/base/l3.png
+https://ichigoproduction.com/core_sys/images/contents/00000005/base/l3.png
+https://ichigoproduction.com/core_sys/images/contents/00000006/base/l3.png
+https://ichigoproduction.com/core_sys/images/contents/00000007/base/l3.png
+https://ichigoproduction.com/core_sys/images/contents/00000008/base/l3.png
+https://ichigoproduction.com/core_sys/images/contents/00000009/base/l3.png
+
+https://www.special-contents.com/oshinoko/assets/images/person/1.webp
+https://www.special-contents.com/oshinoko/assets/images/person/2.webp
+https://www.special-contents.com/oshinoko/assets/images/person/3.webp
+https://www.special-contents.com/oshinoko/assets/images/person/4.webp
+https://www.special-contents.com/oshinoko/assets/images/person/5.webp
+https://www.special-contents.com/oshinoko/assets/images/12_2.webp
+https://www.special-contents.com/oshinoko/assets/images/12_3.webp
