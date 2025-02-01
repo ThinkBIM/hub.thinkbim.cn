@@ -276,7 +276,7 @@ tochide: false
   class_desc:
   link_list:
   - name: Dukou
-    link: https://dukou.icu/user/register?code=VEDL
+    link: https://flzt.top/user/register?code=VEDL
     descr: Dukou
     avatar: https://ooo.0x0.ooo/2024/08/26/OtSiTp.th.png
   - name: Speeder
