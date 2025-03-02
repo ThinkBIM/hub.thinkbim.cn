@@ -1,0 +1,294 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>PHP7、8新特性 | ThinkBIM</title><meta name="author" content="ThinkBIM,thinkbim@thinkbim.cn"><meta name="copyright" content="ThinkBIM"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="php8新特性，mixed类型、match表达式、nullsafe运算符">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PHP7、8新特性">
+<meta property="og:url" content="https://www.thinkbim.cn/php_newfeature.html">
+<meta property="og:site_name" content="ThinkBIM">
+<meta property="og:description" content="php8新特性，mixed类型、match表达式、nullsafe运算符">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2023/12/22/Xok8PZfrbImAzDj.png">
+<meta property="article:published_time" content="2022-12-31T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-05-21T13:29:33.844Z">
+<meta property="article:author" content="ThinkBIM">
+<meta property="article:tag" content="PHP8">
+<meta property="article:tag" content="PHP7">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2023/12/22/Xok8PZfrbImAzDj.png"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://www.thinkbim.cn/php_newfeature.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="02X0oFSaS7yuSpfrGZAaOj2ONXnratn8YUdF5jFk-k4"/><meta name="baidu-site-verification" content="codeva-qTxaWjuijV"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-7874261483016741',
+  enable_page_level_ads: 'true'
+});</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: ThinkBIM","link":"链接: ","source":"来源: ThinkBIM","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'PHP7、8新特性',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-05-21 21:29:33'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/c/font_3747970_r7c6a7urqq.css"><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/css/flash.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s2.loli.net/2023/12/22/Xok8PZfrbImAzDj.png" onerror="onerror=null;src='null'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">63</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">52</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">27</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/comic/"><i class="fa-fw iconfont icon-dongman"></i><span> 动漫</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-ruanjian-1"></i><span> 软件</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/software/mac.html"><i class="fa-fw iconfont icon-mac"></i><span> Mac</span></a></li><li><a class="site-page child" href="/software/windows.html"><i class="fa-fw iconfont icon-windows"></i><span> Windows</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/bookmark/"><i class="fa-fw iconfont icon-shuqian"></i><span> 书签</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-riyu1-03"></i><span> 日语</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/japenese/basic.html"><i class="fa-fw iconfont icon-riyu2"></i><span> 元音</span></a></li><li><a class="site-page child" href="/japenese/consonant.html"><i class="fa-fw iconfont icon-riyu2"></i><span> 浊音</span></a></li><li><a class="site-page child" href="/japenese/emit.html"><i class="fa-fw iconfont icon-riyu2"></i><span> 发音</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="ThinkBIM"><span class="site-name">ThinkBIM</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/comic/"><i class="fa-fw iconfont icon-dongman"></i><span> 动漫</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-ruanjian-1"></i><span> 软件</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/software/mac.html"><i class="fa-fw iconfont icon-mac"></i><span> Mac</span></a></li><li><a class="site-page child" href="/software/windows.html"><i class="fa-fw iconfont icon-windows"></i><span> Windows</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/bookmark/"><i class="fa-fw iconfont icon-shuqian"></i><span> 书签</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-riyu1-03"></i><span> 日语</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/japenese/basic.html"><i class="fa-fw iconfont icon-riyu2"></i><span> 元音</span></a></li><li><a class="site-page child" href="/japenese/consonant.html"><i class="fa-fw iconfont icon-riyu2"></i><span> 浊音</span></a></li><li><a class="site-page child" href="/japenese/emit.html"><i class="fa-fw iconfont icon-riyu2"></i><span> 发音</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">PHP7、8新特性</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-12-31T16:00:00.000Z" title="发表于 2023-01-01 00:00:00">2023-01-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-05-21T13:29:33.844Z" title="更新于 2024-05-21 21:29:33">2024-05-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/PHP/">PHP</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">436</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="PHP7、8新特性"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><p>php7、php8新特性，包含标量、返回值声明，运算符，Match表达式，JIT，构造器等</p>
+<h2 id="PHP7新特性"><a href="#PHP7新特性" class="headerlink" title="PHP7新特性"></a>PHP7新特性</h2><h3 id="标量类型声明"><a href="#标量类型声明" class="headerlink" title="标量类型声明"></a>标量类型声明</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"><span class="keyword">int</span> ...<span class="variable">$param</span></span>) </span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="返回值类型声明"><a href="#返回值类型声明" class="headerlink" title="返回值类型声明"></a>返回值类型声明</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"><span class="keyword">int</span> ...<span class="variable">$param</span></span>): <span class="title">int</span> </span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="合并运算符"><a href="#合并运算符" class="headerlink" title="合并运算符"></a>合并运算符</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$arr</span> = <span class="variable">$param</span>[<span class="string">&#x27;name&#x27;</span>] ?? <span class="string">&#x27;nobody&#x27;</span>;</span><br><span class="line"><span class="variable">$arr</span> = <span class="variable">$param</span>[<span class="string">&#x27;name&#x27;</span>] ?: <span class="string">&#x27;nobody&#x27;</span>;</span><br></pre></td></tr></table></figure>
+<h3 id="组合比较符"><a href="#组合比较符" class="headerlink" title="组合比较符"></a>组合比较符</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//大于、等于、小于时，分别返回-1、0、1。</span></span><br><span class="line"><span class="number">1</span> &lt;=&gt; <span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="通过-define-定义常量数组"><a href="#通过-define-定义常量数组" class="headerlink" title="通过 define() 定义常量数组"></a>通过 define() 定义常量数组</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;CONST&#x27;</span>, [<span class="number">1</span>,<span class="number">3</span>,<span class="number">4</span>]);</span><br></pre></td></tr></table></figure>
+
+<h3 id="use-加强"><a href="#use-加强" class="headerlink" title="use 加强"></a>use 加强</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> <span class="title">namespace</span>\&#123;<span class="title">ClassA</span>, <span class="title">ClassB</span>, <span class="title">ClassC</span> <span class="keyword">as</span> <span class="title">C</span>&#125;;</span><br></pre></td></tr></table></figure>
+
+<h3 id="整除函数"><a href="#整除函数" class="headerlink" title="整除函数"></a>整除函数</h3><ul>
+<li>intdiv()</li>
+</ul>
+<h2 id="PHP8新特性"><a href="#PHP8新特性" class="headerlink" title="PHP8新特性"></a>PHP8新特性</h2><h3 id="新mixed类型包含一下任何类型"><a href="#新mixed类型包含一下任何类型" class="headerlink" title="新mixed类型包含一下任何类型"></a>新mixed类型包含一下任何类型</h3><ul>
+<li>array</li>
+<li>bool</li>
+<li>callable</li>
+<li>int</li>
+<li>float</li>
+<li>null</li>
+<li>object</li>
+<li>resource</li>
+<li>string</li>
+</ul>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">bar</span>(<span class="params"></span>): <span class="title">mixed</span> </span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="nullsafe运算符"><a href="#nullsafe运算符" class="headerlink" title="nullsafe运算符"></a>nullsafe运算符</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$user</span>?-&gt;user?-&gt;<span class="title function_ invoke__">getUserInfo</span>()?-&gt;info;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h3><ul>
+<li>str_contains() 确定字符串是否包含指定子串</li>
+<li>str_starts_with() 检查字符串是否以指定子串开头</li>
+<li>str_ends_with() 检查字符串是否以指定子串结尾</li>
+</ul>
+<h3 id="Match表达式"><a href="#Match表达式" class="headerlink" title="Match表达式"></a>Match表达式</h3><p>match 表达式基于值的一致性进行分支计算。 match表达式和 switch 语句类似， 都有一个表达式主体，可以和多个可选项进行比较。 与 switch 不同点是，它会像三元表达式一样求值。<br>与 switch 另一个不同点，它的比较是严格比较（<code>===</code>）而不是松散比较（<code>==</code>）</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$food</span> = <span class="string">&#x27;cake&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="variable">$return_value</span> = <span class="keyword">match</span> (<span class="variable">$food</span>) &#123;</span><br><span class="line">    <span class="string">&#x27;apple&#x27;</span> =&gt; <span class="string">&#x27;This food is an apple&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;bar&#x27;</span> =&gt; <span class="string">&#x27;This food is a bar&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;cake&#x27;</span> =&gt; <span class="string">&#x27;This food is a cake&#x27;</span>,</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="variable">$return_value</span>); <span class="comment">//string(19) &quot;This food is a cake&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="可以在对象上使用-class"><a href="#可以在对象上使用-class" class="headerlink" title="可以在对象上使用 ::class"></a>可以在对象上使用 ::class</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$class</span> = <span class="keyword">new</span> <span class="title class_">Class</span>();</span><br><span class="line"></span><br><span class="line"><span class="variable">$class</span>::<span class="variable language_">class</span>; <span class="comment">// 等同 get_class()</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="联合类型"><a href="#联合类型" class="headerlink" title="联合类型"></a>联合类型</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params">Foo|Bar <span class="variable">$foo</span></span>): <span class="title">int</span>|<span class="title">float</span></span></span><br><span class="line"><span class="function"><span class="title">public</span> <span class="title">function</span> <span class="title">bar</span>(<span class="params">?Bar <span class="variable">$bar</span></span>): <span class="title">void</span></span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="JIT"><a href="#JIT" class="headerlink" title="JIT"></a>JIT</h3><p>JIT作为PHP底层编译引擎</p>
+<h3 id="构造器属性提升"><a href="#构造器属性提升" class="headerlink" title="构造器属性提升"></a>构造器属性提升</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Money</span> </span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span></span></span><br><span class="line"><span class="params"><span class="function">        <span class="keyword">public</span> Currency <span class="variable">$currency</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">        <span class="keyword">public</span> <span class="keyword">int</span> <span class="variable">$amount</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">    </span>) </span>&#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://www.thinkbim.cn">ThinkBIM</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://www.thinkbim.cn/php_newfeature.html">https://www.thinkbim.cn/php_newfeature.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.thinkbim.cn" target="_blank">ThinkBIM</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/PHP8/">PHP8</a><a class="post-meta__tags" href="/tags/PHP7/">PHP7</a></div><div class="post_share"></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://s2.loli.net/2022/11/07/Sl2oa1OnEyR6vgj.jpg" target="_blank"><img class="post-qr-code-img" src="https://s2.loli.net/2022/11/07/Sl2oa1OnEyR6vgj.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li></ul></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://s2.loli.net/2023/12/22/Xok8PZfrbImAzDj.png" onerror="this.onerror=null;this.src='/null'" alt="avatar"/></div><div class="author-info__name">ThinkBIM</div><div class="author-info__description">ThinkBIM</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">63</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">52</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">27</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/thinkbim" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:thinkbim@thinkbim.cn" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://github.com/ThinkBIM/hub.thinkbim.cn/issues" target="_blank" title=""><i class="fas fa-rss"></i></a><a class="social-icon" href="https://t.me/thinkbim" target="_blank" title="Telegram"><i class="fas fa-brands fa-telegram"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#PHP7%E6%96%B0%E7%89%B9%E6%80%A7"><span class="toc-number">1.</span> <span class="toc-text">PHP7新特性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%87%E9%87%8F%E7%B1%BB%E5%9E%8B%E5%A3%B0%E6%98%8E"><span class="toc-number">1.1.</span> <span class="toc-text">标量类型声明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%94%E5%9B%9E%E5%80%BC%E7%B1%BB%E5%9E%8B%E5%A3%B0%E6%98%8E"><span class="toc-number">1.2.</span> <span class="toc-text">返回值类型声明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%88%E5%B9%B6%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.3.</span> <span class="toc-text">合并运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%84%E5%90%88%E6%AF%94%E8%BE%83%E7%AC%A6"><span class="toc-number">1.4.</span> <span class="toc-text">组合比较符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%9A%E8%BF%87-define-%E5%AE%9A%E4%B9%89%E5%B8%B8%E9%87%8F%E6%95%B0%E7%BB%84"><span class="toc-number">1.5.</span> <span class="toc-text">通过 define() 定义常量数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#use-%E5%8A%A0%E5%BC%BA"><span class="toc-number">1.6.</span> <span class="toc-text">use 加强</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B4%E9%99%A4%E5%87%BD%E6%95%B0"><span class="toc-number">1.7.</span> <span class="toc-text">整除函数</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PHP8%E6%96%B0%E7%89%B9%E6%80%A7"><span class="toc-number">2.</span> <span class="toc-text">PHP8新特性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B0mixed%E7%B1%BB%E5%9E%8B%E5%8C%85%E5%90%AB%E4%B8%80%E4%B8%8B%E4%BB%BB%E4%BD%95%E7%B1%BB%E5%9E%8B"><span class="toc-number">2.1.</span> <span class="toc-text">新mixed类型包含一下任何类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#nullsafe%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">2.2.</span> <span class="toc-text">nullsafe运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%87%BD%E6%95%B0"><span class="toc-number">2.3.</span> <span class="toc-text">字符串函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Match%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="toc-number">2.4.</span> <span class="toc-text">Match表达式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%AF%E4%BB%A5%E5%9C%A8%E5%AF%B9%E8%B1%A1%E4%B8%8A%E4%BD%BF%E7%94%A8-class"><span class="toc-number">2.5.</span> <span class="toc-text">可以在对象上使用 ::class</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%81%94%E5%90%88%E7%B1%BB%E5%9E%8B"><span class="toc-number">2.6.</span> <span class="toc-text">联合类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JIT"><span class="toc-number">2.7.</span> <span class="toc-text">JIT</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E5%99%A8%E5%B1%9E%E6%80%A7%E6%8F%90%E5%8D%87"><span class="toc-number">2.8.</span> <span class="toc-text">构造器属性提升</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2025 By ThinkBIM</div><div class="footer_custom_text"><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024041189号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><div class="js-pjax"><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(()=>{
+  const getGiscusTheme = theme => {
+    return theme === 'dark' ? 'dark' : 'light'
+  }
+
+  const loadGiscus = () => {
+    const config = Object.assign({
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'ThinkBIM/hub.thinkbim.cn',
+      'data-repo-id': 'R_kgDOIWSBGQ',
+      'data-category-id': 'DIC_kwDOIWSBGc4CcLi8',
+      'data-mapping': 'pathname',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true
+    },{"data-lang":"zh-CN","data-loading":"lazy"})
+
+    const ele = document.createElement('script')
+    for (let key in config) {
+      ele.setAttribute(key, config[key])
+    }
+    document.getElementById('giscus-wrap').appendChild(ele)
+  }
+
+  const changeGiscusTheme = theme => {
+    const sendMessage = message => {
+      const iframe = document.querySelector('iframe.giscus-frame')
+      if (!iframe) return
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app')
+    }
+
+    sendMessage({
+      setConfig: {
+        theme: getGiscusTheme(theme)
+      }
+    });
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if ('Giscus' === 'Giscus' || !true) {
+    if (true) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment= loadGiscus
+  }
+})()</script></div><script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
