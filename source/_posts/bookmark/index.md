@@ -98,6 +98,7 @@ tochide: false
 - class_name:
   class_desc: 动漫免费在线观看，高品质画质，实时更新，追番利器。BT分享站，动画、漫画、游戏、动漫音乐、片源分享
   link_list:
+
   - name: AGE动漫
     link: https://www.agemys.org/
     descr: Age动漫专业的在线动漫网站，动漫免费在线观看，高品质画质，实时更新，追番利器!
@@ -137,6 +138,18 @@ tochide: false
   - name: Bangumi 番组计划
     link: https://bgm.tv/
     descr: Bangumi 番组计划
+    avatar: https://ooo.0x0.ooo/2025/03/02/OQmnUD.png
+  - name: MiFun
+    link: http://www.mifun.app/
+    descr: MiFun
+    avatar: https://ooo.0x0.ooo/2025/03/02/OQmnUD.png
+  - name: 动漫共和国
+    link: http://www.animerep.com/
+    descr: 动漫共和国
+    avatar: https://ooo.0x0.ooo/2025/03/02/OQmnUD.png
+  - name: 西瓜卡通
+    link: https://www.agekk.com/
+    descr: 西瓜卡通
     avatar: https://ooo.0x0.ooo/2025/03/02/OQmnUD.png
     {% endflink %}
 
