@@ -1,7 +1,7 @@
 ---
 title: 个人喜欢动漫推荐，更新中
 date: 2022-11-02
-updated: 2024-01-16
+updated: 2025-05-03
 description: 个人动漫推荐
 keywords: 动漫推荐|日漫|国漫
 categories:
@@ -20,37 +20,33 @@ tochide: false
 
 ## 观看地址
 
-> 推荐[AGE动漫](https://www.agedm.org/) 和 [MX动漫](http://mxdm.tv/)
+> 推荐[AGE动漫](https://www.agedm.io/) [瓜子影视](https://gztv5.com/) [泥视频](https://www.nivod.vip/)
 
-- [AGE动漫](https://www.agedm.org/)
-- [樱花动漫](http://www.yinghuacd.com/)
+- [AGE动漫]https://www.agedm.io/)
+- [樱花动漫]https://yinghua.im/)
 - [MX动漫](http://mxdm.tv/)
-- [影巢](https://www.hdhive.org/)
 - [ACG盒子](https://www.acgbox.link/)
 - [你的动漫](https://youranimes.tw/)
 - [OmoFun](https://omofun.link/)
 - [西瓜卡通](https://www.agekk.com/)
+- [咕咕番](https://www.gugufan.xyz/)
+- [瓜子影视](https://gztv5.com/)
+- [泥视频](https://www.nivod.vip/)
+- [55电影](https://55tk7.art/)
 
 ## 观影记录
 
 > 更新时间 2025年02月16日
 
-- 坂本日常 `7`
-- 药屋少女的呢喃 II `11`
-- 牧神记 `23`
+- 坂本日常 II `7`
 - 香格里拉·弗陇提亚～屎作猎人向神作发起挑战～ II `17`
-- 我独自升级 第二季 -起于暗影- `11`
 - 我和班上最讨厌的女生结婚了 `3`
 - 金牌得主 `5`
-- 胆大党 `10`
 - 全修 `6`
-- 成何体统 `18`
-- 我推的孩子第二季 `8`
-- 仙逆 `76`
-- 诛仙 `52`
+- 仙逆 `32`
 - 一念永恒 `45`
 - 师兄啊师兄 `47`
-- 炼气十万年 `159`
+- 炼气十万年 `236`
 - 夜晚的水母不会游泳 `3`
 - 月光下的异世界之旅II `1`
 - 打工吧！魔王大人 第二季 `5`
@@ -68,13 +64,13 @@ tochide: false
 - 最强阴阳师的异世界转生记
 - 间谍教室 `1`
 - 遮天 `7`
+- 云深不知梦 `15`
+- 谷围南亭 `3`
 
 ## 续作待续（期待）
 
 - 葬送的芙莉莲
-- 药屋少女的呢喃
 - 咒术回战
-- 灵笼
 - 转生成蜘蛛又怎样！
 - 一拳超人
 - 鬼灭之刃
@@ -105,6 +101,8 @@ tochide: false
 - 大王不高兴 `I II`
 - 刺客伍六七 `I II III`
 - 仙王的日常生活 `I II`
+- 成何体统
+- 诛仙
 
 ## 日漫
 
@@ -121,7 +119,7 @@ tochide: false
 - 葬送的芙莉莲
 - 轮回第7次的反派千金，在前敌国尽尝自由自在的新娘生活
 - 独自升级 `I II`
-- 药屋少女的呢喃
+- 药屋少女的呢喃 `I II`
 - 僵尸百分百
 - 咒术回战 `I II`
 - 转生成蜘蛛又怎样！
@@ -153,7 +151,7 @@ tochide: false
 - 地狱乐
 - 亡骸游戏 `I II`
 - 天国大魔境
-- 我推的孩子
+- 我推的孩子 `I II`
 - 电锯人
 - 咒术回战 `I II`
 - 黑暗集会
