@@ -212,7 +212,12 @@ tochide: false
     link: https://duboku.im/
     descr: 独播库，duboku，线上看，剧情介绍，演员阵容表，剧迷电影,线上看就来独播库
     avatar: 	https://ooo.0x0.ooo/2025/03/02/OQmnUD.png
-    
+
+  - name: 独播库
+    link: https://duboku.im/
+    descr: 独播库，duboku，线上看，剧情介绍，演员阵容表，剧迷电影,线上看就来独播库
+    avatar: 	https://ooo.0x0.ooo/2025/03/02/OQmnUD.png    
+
     {% endflink %}
 
 ## 图书
